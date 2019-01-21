@@ -248,7 +248,7 @@ fieldset {
   display: block;
   width: 28%;
   height: 10%;
-  margin: 3% 0 0% 70%;
+  margin: 1.7% 0 0% 70%;
 }
 
 #derechos p {
@@ -274,6 +274,7 @@ fieldset {
   color: #fff;
   float: right;
   margin-right: 7.7%;
+  margin-top: 1%;
 }
 
 #enviarCorreoBoton {
@@ -282,7 +283,7 @@ fieldset {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  margin: 9.5% 0 0% -3%;
+  margin: 10.4% 0 0% -3%;
   width: 2%;
   height: 11%;
   border-radius: 60%;
@@ -336,6 +337,193 @@ fieldset {
   .contenedor {
     width: 100% !important;
   }
+}
+#logoHome {
+  background-image: url(assets/images/logoHome.png);
+}
+
+.seccionHome1 {
+  background-image: url(assets/images/fondoSeccion1Home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: red;
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.seccionHome2 {
+  background-image: url(assets/images/fondoSeccion2Home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: red;
+  display: block;
+  width: 100%;
+  height: 70%;
+  padding-top: 5%;
+}
+
+.tituloSeccion2Home {
+  background-color: transparent;
+  display: block;
+  width: 30%;
+  height: 13%;
+  border: 1px solid #fff;
+  font-size: 46;
+  text-align: center;
+  margin: 0% 0% 0 35%;
+}
+
+.tituloSeccion2Home p {
+  margin: 2% 0 0 0%;
+}
+
+.promociones {
+  background-image: url(assets/images/promos.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 60%;
+  height: 70%;
+  margin: -18% 0 0 20%;
+}
+
+.textoAsociados {
+  margin: -65% 0 0 50%;
+  font-size: 24;
+}
+
+.anterior {
+  background-image: url(assets/images/anterior.png);
+  background-color: transparent;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 2%;
+  height: 8%;
+  margin: 23% 0 0 16%;
+  border: 0px;
+}
+
+.siguiente {
+  background-image: url(assets/images/siguiente.png);
+  background-color: transparent;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 2%;
+  height: 8%;
+  margin: -22.5% 0 0 82%;
+  border: 0px;
+}
+
+.seccionHome3 {
+  background-image: url(assets/images/fondoSeccion3Home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: block;
+  width: 100%;
+  height: 79%;
+  padding-top: 5%;
+}
+
+.tituloSeccion3Home {
+  background-color: transparent;
+  display: block;
+  width: 30%;
+  height: 10%;
+  border: 1px solid #fff;
+  font-size: 32;
+  text-align: center;
+  margin: 0% 0% 0 35%;
+}
+
+.tituloSeccion3Home p {
+  margin: 3% 0 0 0;
+}
+
+.resultados {
+  background-image: url(assets/images/tablaResultados.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  display: inline-block;
+  width: 50%;
+  height: 60%;
+  margin: -18% -10% 0 30%;
+  float: left;
+}
+
+#anteriorSeccion3 {
+  margin: 25% 0% 0 25%;
+}
+
+#siguienteSeccion3 {
+  margin: 52.7% 0% 0 73%;
+}
+
+.tituloSeccion1Home {
+  background-color: transparent;
+  display: block;
+  width: 30%;
+  height: 10%;
+  border: 1px solid #fff;
+  font-size: 30;
+  text-align: center;
+  margin: 0% 0% 0 35%;
+}
+
+.tituloSeccion1Home p {
+  margin: -1% 0 0 0%;
+}
+
+.divImagenesSeccion1 {
+  background-color: red;
+  display: block;
+  width: 85%;
+  height: 40%;
+  margin: 10% 0 0 7%;
+}
+
+.imagen1Home {
+  background-image: url(assets/images/imagen1Home.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  display: inline-block;
+  width: 30%;
+  height: 33%;
+  margin: 10% -10% 0 0%;
+  float: left;
+}
+
+#imagen2Home {
+  background-image: url(assets/images/imagen2Home.png);
+}
+
+#imagen3Home {
+  background-image: url(assets/images/imagen3Home.png);
+}
+
+#imagen4Home {
+  background-image: url(assets/images/imagen4Home.png);
+}
+
+#imagen1 {
+  margin-left: 14%;
+}
+
+.verMas {
+  margin: 40% 0 0 -60%;
+  text-align: center;
+}
+
+.verMas a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
