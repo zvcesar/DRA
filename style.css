@@ -1,0 +1,341 @@
+/*!
+ Theme Name: TM7200
+ Template Theme URI: http://www.srp.ucr.ac.cr/
+ Author: Grupo TM7200 - III 2019
+ Author URI: http://www.srp.ucr.ac.cr/
+ Description: Tema del curso Desarrollo Rapido de Aplicaciones.
+ Version: 1.1
+ License: GNU General Public License v2
+*/
+body {
+  background-image: url(assets/images/header.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 170%;
+  margin: 0 0 0 0;
+  padding: 0;
+  color: #fff;
+}
+
+.logo {
+  background-image: url(assets/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 300%;
+  margin-left: -200%;
+  padding: 30;
+}
+
+nav.navbar {
+  background-color: #1A3C3B !important;
+  width: 100%;
+  height: 10%;
+  opacity: 0.9 !important;
+  margin-top: 3%;
+  margin-bottom: -0.1%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+nav.navbar .nav li a {
+  text-decoration: none;
+  color: #225D59 !important;
+  font-size: 20;
+  border-left: 1px solid #225D59 !important;
+  opacity: 1 !important;
+  margin: 0 50 0 20%;
+  text-align: center !important;
+  padding: 30;
+  box-sizing: border-box;
+}
+
+a {
+  text-align: center !important;
+}
+
+nav.navbar .nav li a:hover {
+  text-decoration: none;
+  color: #C8AD60 !important;
+}
+
+.buscador {
+  background-color: #225D59;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #225D59;
+  margin-left: 70%;
+  margin-right: -16%;
+  padding: 0 4px 4px 4px;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.buttonBuscador {
+  background-image: url(assets/images/buscador.png);
+  background-color: #225D59;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  margin-left: 0%;
+  width: 2%;
+  height: 2%;
+  border-radius: 60%;
+  border: 1px solid #225D59;
+  padding: 0 4px 0 4px;
+  box-sizing: border-box;
+}
+
+.sectionForm {
+  background-color: #225d5aff;
+  width: 100%;
+  height: 65%;
+  float: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+.sectionForm input {
+  padding: 10 0;
+}
+
+.form-group {
+  width: 80%;
+  height: 50%;
+  margin-left: -35%;
+  float: left;
+}
+
+.formContacto {
+  float: left;
+  overflow: hidden;
+}
+
+.formulario {
+  background-color: #225d5aff;
+  display: block;
+  width: 24%;
+  height: 40%;
+  margin-top: -6%;
+  margin-left: 5%;
+  padding-top: 6%;
+  font-size: 26;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: 10% !important;
+}
+
+.textoFormulario {
+  font-size: 20;
+  margin-left: 8%;
+  margin-bottom: -4%;
+  padding-top: 4%;
+  box-sizing: border-box;
+}
+
+.alinearFormulario {
+  margin-left: 10%;
+  font-size: 20;
+}
+
+.botonFomulario {
+  background-repeat: no-repeat;
+  background-color: #1d403fff;
+  font-size: 20;
+  color: #fff;
+  margin-left: 62%;
+  margin-top: 2%;
+  padding: 10 20;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.logoContacto {
+  background-image: url(assets/images/logoContacto.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: block;
+  width: 80%;
+  height: 60%;
+  margin-top: -5%;
+  margin-left: 11%;
+  background-position: center;
+}
+
+.container {
+  text-align: left !important;
+}
+
+.well {
+  width: 50%;
+  margin-left: -18%;
+}
+
+fieldset {
+  width: 50%;
+  height: 60%;
+}
+
+.divInfoEmpresa {
+  background-color: #225d5aff;
+  display: block;
+  width: 50%;
+  height: 99.9%;
+  float: right;
+  margin-top: -25.3%;
+}
+
+.infoEmpresa {
+  background-color: #225d5aff;
+  display: block;
+  font-size: 24;
+  width: 50%;
+  height: 20%;
+  margin: 20% 0% 0% 30%;
+  box-sizing: border-box;
+}
+
+.infoDetalles {
+  color: #c8ad61ff !important;
+}
+
+.ubicacion {
+  background-color: #225d5aff;
+  background-image: url(assets/images/ubicacion.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 40%;
+  height: 31%;
+  margin: 15% 0% 0% 30%;
+}
+
+.footer {
+  background-color: #1d403fff;
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+}
+
+.textoFooter {
+  display: block;
+  font-size: 20;
+  width: 20%;
+  height: 38%;
+  float: left;
+  margin: 3% 0 0 12%;
+}
+
+#texto1 {
+  margin: 3% 0 0 3%;
+}
+
+#texto2 {
+  margin: 3% 0 0 18%;
+}
+
+#texto3 {
+  margin: 3% 0 0 15%;
+}
+
+#derechos {
+  display: block;
+  width: 28%;
+  height: 10%;
+  margin: 3% 0 0% 70%;
+}
+
+#derechos p {
+  color: #fff;
+}
+
+.redesSociales {
+  display: block;
+  width: 17%;
+  height: 20%;
+  float: left;
+  margin: -4% 0 0 3%;
+}
+
+.enviarCorreo {
+  background-color: #225D59;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #225D59;
+  padding: 0 4px 4px 4px;
+  text-align: center;
+  color: #fff;
+  float: right;
+  margin-right: 7.7%;
+}
+
+#enviarCorreoBoton {
+  background-image: url(assets/images/enviarCorreo.png);
+  background-color: #225D59;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin: 9.5% 0 0% -3%;
+  width: 2%;
+  height: 11%;
+  border-radius: 60%;
+  border: 1px solid #088383ff;
+  padding: 0 4px 0 4px;
+}
+
+.facebook {
+  background-image: url(assets/images/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  margin: 0% 0 0% -16%;
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.instagram {
+  background-image: url(assets/images/instagram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  margin: -20% 0% 0% 2%;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.twitter {
+  background-image: url(assets/images/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  margin: -19% 0% 0% 19%;
+  width: 50%;
+  height: 100%;
+}
+
+.google {
+  background-image: url(assets/images/google.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  margin: -19.4% 0% 0% 37%;
+  width: 50%;
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .contenedor {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
