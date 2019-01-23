@@ -28,21 +28,40 @@
 	<section class="seccionHome2">
 		<div class="tituloSeccion2Home"><p>PROMOCIONES</p></div>
 		<div class="">
+			
+		</div>
+		<div class="promociones">
+			<div class="textoAsociados">
+				<p>Echa un vistazo a los <br>
+				precios especiales en<br>
+				diferentes gimnasios
+				</p>
+			</div>
+		</div>
+
+		<div class="">
 			<button type="submit" class="anterior"></button>
-		</div><div class="promociones"></div><div class="">
 			<button type="submit" class="siguiente"></button>
 		</div>
 		
 	</section>
 
 	<section class="seccionHome3">
-		<div class="tituloSeccion3Home"><p>RESULTADOS</p><p>Consultá algunos de los<br>resultados más importantes<br>a nivel munidal</p></div>
-		<button id="anteriorSeccion3" type="submit" class="anterior"></button><div class="resultados"></div><div class="textoAsociados"><p>Echa un vistazo a los <br>
-precios especiales en<br>
-diferentes gimnasios
-</p></div><button id="siguienteSeccion3" type="submit" class="siguiente"></button>
+
+		<div class="tituloSeccion3Home">
+			<p>RESULTADOS</p>
+			<p>Consultá algunos de los<br>resultados más importantes<br>a nivel munidal</p>
+		</div>
+
+		<div class="resultados">
+			<button class="anteriorSeccion3"></button>
+			<button class="siguienteSeccion3"></button>
+		</div>
+		
 		
 	</section>
+
+	
 <?php
 	get_footer();
 ?>

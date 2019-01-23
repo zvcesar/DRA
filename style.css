@@ -116,11 +116,11 @@ nav.navbar .nav li a:hover {
 }
 
 .formulario {
-  background-color: #225d5aff;
+  background-color: #225D59;
   display: block;
-  width: 24%;
-  height: 40%;
-  margin-top: -6%;
+  width: 45%;
+  height: 90%;
+  margin-top: -7%;
   margin-left: 5%;
   padding-top: 6%;
   font-size: 26;
@@ -133,7 +133,7 @@ nav.navbar .nav li a:hover {
 
 .textoFormulario {
   font-size: 20;
-  margin-left: 8%;
+  margin-left: 9.4%;
   margin-bottom: -4%;
   padding-top: 4%;
   box-sizing: border-box;
@@ -183,16 +183,13 @@ fieldset {
 }
 
 .divInfoEmpresa {
-  background-color: #225d5aff;
   display: block;
-  width: 50%;
-  height: 99.9%;
-  float: right;
-  margin-top: -25.3%;
+  width: 40%;
+  height: 65%;
+  margin: -46.8% 0 0 50%;
 }
 
 .infoEmpresa {
-  background-color: #225d5aff;
   display: block;
   font-size: 24;
   width: 50%;
@@ -206,14 +203,13 @@ fieldset {
 }
 
 .ubicacion {
-  background-color: #225d5aff;
   background-image: url(assets/images/ubicacion.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 60%;
   display: block;
-  width: 40%;
-  height: 31%;
-  margin: 15% 0% 0% 30%;
+  width: 75%;
+  height: 35%;
+  margin: 30% 0% 0% 30%;
 }
 
 .footer {
@@ -333,11 +329,6 @@ fieldset {
   height: 100%;
 }
 
-@media screen and (max-width: 700px) {
-  .contenedor {
-    width: 100% !important;
-  }
-}
 #logoHome {
   background-image: url(assets/images/logoHome.png);
 }
@@ -389,12 +380,16 @@ fieldset {
   display: block;
   width: 60%;
   height: 70%;
-  margin: -18% 0 0 20%;
+  margin: 7% 0 0 20%;
 }
 
 .textoAsociados {
-  margin: -65% 0 0 50%;
-  font-size: 24;
+  display: block;
+  width: 40%;
+  height: 40%;
+  margin: 0% 0 0 50%;
+  padding-top: 15%;
+  font-size: 30;
 }
 
 .anterior {
@@ -405,7 +400,7 @@ fieldset {
   display: block;
   width: 2%;
   height: 8%;
-  margin: 23% 0 0 16%;
+  margin: -22% 0% 0% 15%;
   border: 0px;
 }
 
@@ -417,7 +412,7 @@ fieldset {
   display: block;
   width: 2%;
   height: 8%;
-  margin: -22.5% 0 0 82%;
+  margin: -4.2% 0 0 83%;
   border: 0px;
 }
 
@@ -430,6 +425,8 @@ fieldset {
   width: 100%;
   height: 79%;
   padding-top: 5%;
+  margin-bottom: -1.4%;
+  margin-top: -1.6%;
 }
 
 .tituloSeccion3Home {
@@ -454,16 +451,39 @@ fieldset {
   display: inline-block;
   width: 50%;
   height: 60%;
-  margin: -18% -10% 0 30%;
+  margin: 10% -10% 0 30%;
   float: left;
 }
 
-#anteriorSeccion3 {
-  margin: 25% 0% 0 25%;
+.anteriorSeccion3 {
+  background-image: url(assets/images/anterior.png);
+  background-color: transparent;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 5%;
+  height: 13%;
+  margin: 30% 0% 0% -8%;
+  border: 0px;
 }
 
-#siguienteSeccion3 {
-  margin: 52.7% 0% 0 73%;
+.siguienteSeccion3 {
+  background-image: url(assets/images/siguiente.png);
+  background-color: transparent;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 5%;
+  height: 13%;
+  margin: -8.4% 0 0 84%;
+  border: 0px;
+}
+
+.divBotonesSeccion3 {
+  background-color: red;
+  display: block;
+  width: 40%;
+  height: 20%;
 }
 
 .tituloSeccion1Home {
@@ -524,6 +544,265 @@ fieldset {
 .verMas a {
   text-decoration: none;
   color: #fff;
+}
+
+@media screen and (max-width: 1920px) {
+  .logo {
+    background-size: 65%;
+    margin-left: -200%;
+  }
+
+  div#navbar {
+    width: 70%;
+  }
+
+  nav.navbar {
+    background-color: #1A3C3B !important;
+    width: auto;
+    height: auto;
+    opacity: 0.9 !important;
+    margin-top: 3%;
+    margin-bottom: -0.1%;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li {
+    margin: 0 0% 0 1% !important;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 28 !important;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 60% 0 15% !important;
+    text-align: left !important;
+    padding: 5%;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .container {
+    width: 54%;
+  }
+
+  .buscador {
+    background-color: #225D59;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #225D59;
+    margin-left: 70%;
+    margin-right: -16%;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    width: 25%;
+    height: 1.5%;
+  }
+
+  .buttonBuscador {
+    background-image: url(assets/images/buscador.png);
+    background-color: #225D59;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin: 0 0 0 0%;
+    width: 2%;
+    height: 1.1%;
+    border-radius: 60%;
+    border: 2px solid #225d5aff;
+    padding: 0 4px 0 4px;
+    box-sizing: border-box;
+  }
+
+  .logoContacto {
+    background-image: url(assets/images/logoContacto.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: block;
+    width: 80%;
+    height: 60%;
+    margin-top: -61%;
+    margin-left: 11%;
+    background-position: center;
+  }
+
+  .sectionForm {
+    background-color: #225d5aff;
+    width: 100%;
+    height: auto;
+    margin-top: -55%;
+    float: center;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .textoFormulario {
+    font-size: 20;
+    margin-left: 30%;
+    margin-bottom: -4%;
+    padding-top: 4%;
+    box-sizing: border-box;
+  }
+
+  .formulario {
+    background-color: #225D59;
+    display: block;
+    width: 100%;
+    height: 40%;
+    margin-top: 0%;
+    margin-left: 20%;
+    padding-top: 0%;
+    font-size: 26;
+    box-sizing: border-box;
+  }
+
+  .botonFomulario {
+    background-repeat: no-repeat;
+    background-color: #1d403fff;
+    font-size: 20;
+    color: #fff;
+    margin-left: 28%;
+    margin-top: 2%;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  .divInfoEmpresa {
+    display: inline-block;
+    width: 100%;
+    height: 35%;
+    margin: -60% 0% -15% -5%;
+  }
+
+  .infoEmpresa {
+    font-size: 34;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin: 1% 0% 0% 16%;
+    box-sizing: border-box;
+  }
+
+  .ubicacion {
+    background-image: url(assets/images/ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    display: block;
+    width: 75%;
+    height: 35%;
+    margin: 10% 0% 0% 35%;
+  }
+
+  .footer {
+    background-color: #1d403fff;
+    width: 100%;
+    height: 20%;
+    margin-top: 0%;
+    box-sizing: border-box;
+  }
+
+  .textoFooter {
+    display: inline-block;
+    font-size: 16;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0% 0 0 0%;
+  }
+
+  #texto1 {
+    margin: 0% 0 0 0%;
+  }
+
+  #texto2 {
+    margin: 0% 0 0 0%;
+  }
+
+  #texto3 {
+    margin: 0% 0 0 0%;
+  }
+
+  #derechos {
+    display: block;
+    width: 28%;
+    height: 10%;
+    margin: 1.7% 0 0% 70%;
+  }
+
+  .enviarCorreo {
+    margin-right: 40%;
+    margin-top: 1%;
+  }
+
+  #enviarCorreoBoton {
+    background-size: 100%;
+    margin: -3% 0 0% 61%;
+    width: 3%;
+    height: 5%;
+  }
+
+  #derechos {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 1.7% 0 0% 0%;
+  }
+
+  .redesSociales {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0% 0 0 3%;
+  }
+
+  .facebook {
+    background-image: url(assets/images/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin: 0% 0 0% 10%;
+    float: left;
+    width: 10%;
+    height: 20%;
+  }
+
+  .instagram {
+    background-image: url(assets/images/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin: 0% 0 0% 10%;
+    float: left;
+    width: 10%;
+    height: 20%;
+  }
+
+  .twitter {
+    background-image: url(assets/images/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin: 0% 0 0% 10%;
+    float: left;
+    width: 10%;
+    height: 20%;
+  }
+
+  .google {
+    background-image: url(assets/images/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin: 0% 0 0% 10%;
+    float: left;
+    width: 10%;
+    height: 20%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
