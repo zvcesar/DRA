@@ -1,0 +1,42 @@
+
+.div1{
+		display: inline-block;
+		width: 35%;
+		height: 75%;
+		margin: 1.5% 0 0 10%;
+		font-size: 18;
+}
+
+.div2{
+		display: block;
+		width: 35%;
+		height: 75%;
+		margin: -30.65% 0% 0% 55%;
+		font-size: 20;
+		text-align: center;
+}
+
+.ubicacion{
+	background-image: url(assets/images/ubicacion.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	display: block;
+	width: 60%;
+	height: 60%;
+	margin: 0 0 0 30%;
+}
+
+	.formDiv1{
+		width: 80%;
+		height: 95%;
+		display: block;
+		margin: 3% auto;
+
+}
+
+.formDiv1 button{
+	margin: 1% 0 0 40%;
+	background-color: #1d403fff;
+	color: #fff;
+	border: 0;
+}

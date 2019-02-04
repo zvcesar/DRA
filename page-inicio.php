@@ -1,10 +1,11 @@
 <?php
 	get_header();
 ?>
-	<section><div class="logoContacto" id="logoHome"></div></section>
+	<section class="sectionLogoPagina"><div class="logoContacto" id="logoHome"></div></section>
 	<section class="seccionHome1">
 		
-			<div class="tituloSeccion1Home"><p>TE AYUDAMOS A CUIDARTE</p><p>Todo lo que necesitas <br>para cuidar tu salud</p></div>
+			<div class="tituloSeccion1Home"><p>TE AYUDAMOS A CUIDARTE</p></div>
+			<div><p class="textoBajoTitulo">Todo lo que necesitas <br>para cuidar tu salud</p></div>
 			<div id="imagen1" class="imagen1Home">
 				<div class="verMas"><p><u>Nutricionista</p></u><a href="#"><p>Ver más</p></a></div>
 				
@@ -50,8 +51,9 @@
 
 		<div class="tituloSeccion3Home">
 			<p>RESULTADOS</p>
-			<p>Consultá algunos de los<br>resultados más importantes<br>a nivel munidal</p>
+			
 		</div>
+		<div class="textoBajoTituloSeccion3"><p>Consultá algunos de los<br>resultados más importantes<br>a nivel munidal</p></div>
 
 		<div class="resultados">
 			<button class="anteriorSeccion3"></button>

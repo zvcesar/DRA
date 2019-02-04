@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no">
 </head>
 <body <?php body_class();?>>
-    <div class="contenedor">
+    
     <section class="section">
     	<nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
       <div class="container">

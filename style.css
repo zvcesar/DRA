@@ -18,6 +18,16 @@ body {
   color: #fff;
 }
 
+.sectionLogoPagina {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 0 0 0;
+  padding: 0;
+  color: #fff;
+}
+
 .logo {
   background-image: url(assets/images/logo.png);
   background-repeat: no-repeat;
@@ -32,7 +42,7 @@ body {
 nav.navbar {
   background-color: #1A3C3B !important;
   width: 100%;
-  height: 10%;
+  height: auto;
   opacity: 0.9 !important;
   margin-top: 3%;
   margin-bottom: -0.1%;
@@ -77,7 +87,7 @@ nav.navbar .nav li a:hover {
 
 .buttonBuscador {
   background-image: url(assets/images/buscador.png);
-  background-color: #225D59;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
@@ -93,67 +103,13 @@ nav.navbar .nav li a:hover {
 .sectionForm {
   background-color: #225d5aff;
   width: 100%;
-  height: 65%;
-  float: center;
-  display: block;
-  box-sizing: border-box;
-}
-
-.sectionForm input {
-  padding: 10 0;
-}
-
-.form-group {
-  width: 80%;
   height: 50%;
-  margin-left: -35%;
-  float: left;
-}
-
-.formContacto {
-  float: left;
-  overflow: hidden;
-}
-
-.formulario {
-  background-color: #225D59;
-  display: block;
-  width: 45%;
-  height: 90%;
-  margin-top: -7%;
-  margin-left: 5%;
-  padding-top: 6%;
-  font-size: 26;
+  float: center;
   box-sizing: border-box;
 }
 
 .container {
   margin-left: 10% !important;
-}
-
-.textoFormulario {
-  font-size: 20;
-  margin-left: 9.4%;
-  margin-bottom: -4%;
-  padding-top: 4%;
-  box-sizing: border-box;
-}
-
-.alinearFormulario {
-  margin-left: 10%;
-  font-size: 20;
-}
-
-.botonFomulario {
-  background-repeat: no-repeat;
-  background-color: #1d403fff;
-  font-size: 20;
-  color: #fff;
-  margin-left: 62%;
-  margin-top: 2%;
-  padding: 10 20;
-  border: 0;
-  box-sizing: border-box;
 }
 
 .logoContacto {
@@ -177,16 +133,12 @@ nav.navbar .nav li a:hover {
   margin-left: -18%;
 }
 
-fieldset {
-  width: 50%;
-  height: 60%;
-}
-
 .divInfoEmpresa {
-  display: block;
+  background-color: red;
+  display: inline-block;
   width: 40%;
-  height: 65%;
-  margin: -46.8% 0 0 50%;
+  height: auto;
+  margin: -50% 0 0 0;
 }
 
 .infoEmpresa {
@@ -202,49 +154,44 @@ fieldset {
   color: #c8ad61ff !important;
 }
 
-.ubicacion {
-  background-image: url(assets/images/ubicacion.png);
-  background-repeat: no-repeat;
-  background-size: 60%;
-  display: block;
-  width: 75%;
-  height: 35%;
-  margin: 30% 0% 0% 30%;
-}
-
 .footer {
   background-color: #1d403fff;
   width: 100%;
-  height: 20%;
+  height: 17%;
+  margin: -10% 0 0 0;
   box-sizing: border-box;
 }
 
 .textoFooter {
-  display: block;
+  display: inline-block;
   font-size: 20;
   width: 20%;
-  height: 38%;
+  height: 20%;
   float: left;
-  margin: 3% 0 0 12%;
+  color: #fff;
+}
+
+.divTextoFooter {
+  display: block;
+  width: 100%;
+  height: 19%;
+  margin: 5% auto;
+  text-align: center;
+  color: #fff;
 }
 
 #texto1 {
-  margin: 3% 0 0 3%;
-}
-
-#texto2 {
-  margin: 3% 0 0 18%;
-}
-
-#texto3 {
-  margin: 3% 0 0 15%;
+  width: 23%;
+  height: auto;
+  margin-left: 7%;
+  font-size: 24;
 }
 
 #derechos {
   display: block;
-  width: 28%;
+  width: 200%;
   height: 10%;
-  margin: 1.7% 0 0% 70%;
+  margin: 3% 0 0% -20%;
 }
 
 #derechos p {
@@ -253,10 +200,17 @@ fieldset {
 
 .redesSociales {
   display: block;
-  width: 17%;
+  width: 15%;
+  height: 25%;
+  margin: 7% 0 0 11%;
+}
+
+.footerForm {
+  display: inline-block;
+  width: 19%;
   height: 20%;
-  float: left;
-  margin: -4% 0 0 3%;
+  float: right;
+  margin: 0 10% 0% 0;
 }
 
 .enviarCorreo {
@@ -265,12 +219,17 @@ fieldset {
   -webkit-border-radius: 15px;
   border-radius: 15px;
   border: 1px solid #225D59;
-  padding: 0 4px 4px 4px;
+  padding: 0;
   text-align: center;
   color: #fff;
-  float: right;
-  margin-right: 7.7%;
-  margin-top: 1%;
+  display: inline-block;
+}
+
+.divBotton {
+  background-color: red;
+  display: inline-block;
+  width: 10%;
+  height: auto;
 }
 
 #enviarCorreoBoton {
@@ -279,54 +238,56 @@ fieldset {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  margin: 10.4% 0 0% -3%;
-  width: 2%;
-  height: 11%;
+  width: 11%;
+  height: 70%;
+  margin-top: -1%;
   border-radius: 60%;
   border: 1px solid #088383ff;
-  padding: 0 4px 0 4px;
+  padding: 0;
 }
 
 .facebook {
   background-image: url(assets/images/facebook.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30%;
-  margin: 0% 0 0% -16%;
-  width: 50%;
+  background-size: 100%;
+  width: 20%;
   height: 100%;
   text-decoration: none;
+  display: inline-block;
+  margin-left: 3%;
 }
 
 .instagram {
   background-image: url(assets/images/instagram.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30%;
-  margin: -20% 0% 0% 2%;
-  float: left;
-  width: 50%;
+  background-size: 100%;
+  width: 20%;
   height: 100%;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 3%;
 }
 
 .twitter {
   background-image: url(assets/images/twitter.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30%;
-  margin: -19% 0% 0% 19%;
-  width: 50%;
+  background-size: 100%;
+  width: 20%;
   height: 100%;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 3%;
 }
 
 .google {
   background-image: url(assets/images/google.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30%;
-  margin: -19.4% 0% 0% 37%;
-  width: 50%;
+  background-size: 100%;
+  width: 20%;
   height: 100%;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 3%;
 }
 
 #logoHome {
@@ -420,28 +381,33 @@ fieldset {
   background-image: url(assets/images/fondoSeccion3Home.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 150%;
   display: block;
   width: 100%;
-  height: 79%;
+  height: 95%;
   padding-top: 5%;
-  margin-bottom: -1.4%;
-  margin-top: -1.6%;
+  margin-top: -5.6%;
 }
 
 .tituloSeccion3Home {
   background-color: transparent;
   display: block;
-  width: 30%;
-  height: 10%;
+  width: 20%;
+  height: 8%;
   border: 1px solid #fff;
   font-size: 32;
   text-align: center;
-  margin: 0% 0% 0 35%;
+  margin: 5% 0% 0 40%;
 }
 
 .tituloSeccion3Home p {
   margin: 3% 0 0 0;
+}
+
+.textoBajoTituloSeccion3 {
+  text-align: center;
+  margin: 5% 0 0 0%;
+  font-size: 24;
 }
 
 .resultados {
@@ -451,7 +417,7 @@ fieldset {
   display: inline-block;
   width: 50%;
   height: 60%;
-  margin: 10% -10% 0 30%;
+  margin: 2% 15% 0 30%;
   float: left;
 }
 
@@ -497,6 +463,12 @@ fieldset {
   margin: 0% 0% 0 35%;
 }
 
+.textoBajoTitulo {
+  text-align: center;
+  margin: 3% 0 0 0%;
+  font-size: 24;
+}
+
 .tituloSeccion1Home p {
   margin: -1% 0 0 0%;
 }
@@ -516,7 +488,7 @@ fieldset {
   display: inline-block;
   width: 30%;
   height: 33%;
-  margin: 10% -10% 0 0%;
+  margin: 5% -10% 0 0%;
   float: left;
 }
 
@@ -546,76 +518,411 @@ fieldset {
   color: #fff;
 }
 
-@media screen and (max-width: 1920px) {
-  .logo {
-    background-size: 65%;
-    margin-left: -200%;
+.section404 {
+  background-color: #0f5757fd;
+  display: block;
+  width: 100%;
+  height: 80%;
+  margin: -3.5% 0% 0 0;
+  padding-top: 1%;
+}
+
+.divGif {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.button404 {
+  background-color: #357b77ff;
+  margin: 0% auto;
+  display: block;
+  border: 0;
+  color: #fff;
+  font-size: 24;
+  width: 13%;
+  height: 5%;
+  margin: 5% 0 0 43%;
+  text-align: center;
+}
+
+.button404 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button404 a:hover {
+  color: #C8AD60;
+}
+
+.gif {
+  background-image: url(assets/images/404.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 30%;
+  height: 20%;
+  margin: 0 0 0 35%;
+  margin-top: 10%;
+}
+
+.texto404 {
+  display: block;
+  width: 45%;
+  height: 15%;
+  font-size: 40;
+  text-align: center;
+  margin: 0 0 0 28%;
+  color: #fff;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .seccionNosotros {
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 36%;
+    margin: -59% 0 0 0;
   }
 
-  div#navbar {
-    width: 70%;
+  .divNosotros1 {
+    background-color: #225d5aff;
+    display: block;
+    width: 75%;
+    height: 23.9%;
   }
 
-  nav.navbar {
-    background-color: #1A3C3B !important;
-    width: auto;
-    height: auto;
-    opacity: 0.9 !important;
-    margin-top: 3%;
-    margin-bottom: -0.1%;
-    text-align: left;
-    box-sizing: border-box;
+  #divNosotrosPrimero {
+    float: left;
   }
 
-  nav.navbar .nav li {
-    margin: 0 0% 0 1% !important;
+  #divNosotrosSegundo {
+    float: right;
   }
 
-  nav.navbar .nav li a {
-    text-decoration: none;
-    color: #225D59 !important;
-    font-size: 28 !important;
-    border-left: 1px solid #225D59 !important;
-    opacity: 1 !important;
-    margin: 0 60% 0 15% !important;
-    text-align: left !important;
-    padding: 5%;
-    box-sizing: border-box;
+  #divNosotrosTercero {
+    float: left;
   }
 
-  nav.navbar .container {
-    width: 54%;
+  #divNosotrosCuarto {
+    float: right;
   }
 
-  .buscador {
-    background-color: #225D59;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
-    border: 1px solid #225D59;
-    margin-left: 70%;
-    margin-right: -16%;
-    padding: 0;
-    text-align: center;
-    color: #fff;
-    box-sizing: border-box;
-    width: 25%;
-    height: 1.5%;
-  }
-
-  .buttonBuscador {
-    background-image: url(assets/images/buscador.png);
-    background-color: #225D59;
+  .imagenNosotrosDerecha {
+    background-image: url(assets/images/basket.jpg);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 84%;
+  }
+
+  .imagenNosotrosDerecha2 {
+    background-image: url(assets/images/volley.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 84%;
+  }
+
+  .imagenNosotrosIzquierda1 {
+    background-image: url(assets/images/tenis.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .imagenNosotrosIzquierda2 {
+    background-image: url(assets/images/nosotros1.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .tituloIzquierda {
+    color: #fff;
+    margin: 0% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 16;
+  }
+
+  .tituloDerecha {
+    color: #fff;
+    width: 50%;
+    margin: 0% 0 0 90%;
+    text-align: left;
+    z-index: 10;
+    font-size: 16;
+  }
+
+  .textoIzquierda {
+    color: #fff;
+    width: 150%;
+    margin: -10% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 10;
+  }
+
+  .textoDerecha {
+    color: #fff;
+    width: 150%;
+    margin: 0% 0 0 100%;
+    text-align: left;
+    z-index: 10;
+    font-size: 10;
+  }
+
+  .imagenNosotros2 {
+    background-image: url(assets/images/nosotros1.jpg);
+  }
+
+  #logoHome {
+    background-image: url(assets/images/logoHome.png);
+  }
+
+  .seccionHome1 {
+    background-image: url(assets/images/gimnasioIphone.png);
+    background-repeat: no-repeat;
     background-position: center;
-    margin: 0 0 0 0%;
+    background-size: 100%;
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 30%;
+    margin-top: -59%;
+    padding-top: 5%;
+  }
+
+  .seccionHome2 {
+    background-image: url(assets/images/promosIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 21%;
+    padding-top: 5%;
+  }
+
+  .tituloSeccion2Home {
+    background-color: transparent;
+    display: block;
+    width: 35%;
+    height: 15%;
+    border: 1px solid #fff;
+    font-size: 18;
+    text-align: center;
+    margin: 0% 0% 0 35%;
+  }
+
+  .tituloSeccion2Home p {
+    margin: 2% 0 0 0%;
+  }
+
+  .promociones {
+    background-image: url(assets/images/promos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 60%;
+    height: 70%;
+    margin: 7% 0 0 20%;
+  }
+
+  .textoAsociados {
+    display: block;
+    width: 50%;
+    height: 40%;
+    margin: 0% 0 0 50%;
+    padding-top: -1%;
+    font-size: 10;
+  }
+
+  .anterior {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
     width: 2%;
-    height: 1.1%;
-    border-radius: 60%;
-    border: 2px solid #225d5aff;
-    padding: 0 4px 0 4px;
+    height: 10%;
+    margin: -28% 0% 0% 15%;
+    border: 0px;
+  }
+
+  .siguiente {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 2%;
+    height: 10%;
+    margin: -5.7% 0 0 83%;
+    border: 0px;
+  }
+
+  .seccionHome3 {
+    background-image: url(assets/images/jornadaIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 46%;
+    padding-top: 5%;
+    margin-bottom: -1.4%;
+    margin-top: -1.6%;
+  }
+
+  .tituloSeccion3Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 6%;
+    border: 1px solid #fff;
+    font-size: 18;
+    text-align: center;
+    margin: 5% 0% 0 35%;
+  }
+
+  .textoBajoTituloSeccion3 {
+    margin: 8% 0 0 0;
+    font-size: 18;
+    text-align: center;
+  }
+
+  .resultados {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 73%;
+    height: 60%;
+    margin: 1% -10% 0 14%;
+    float: left;
+  }
+
+  .anteriorSeccion3 {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: 41% 0% 0% -8%;
+    border: 0px;
+  }
+
+  .siguienteSeccion3 {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: -16.7% 0 0 104%;
+    border: 0px;
+  }
+
+  .divBotonesSeccion3 {
+    background-color: red;
+    display: block;
+    width: 40%;
+    height: 20%;
+  }
+
+  .tituloSeccion1Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 13%;
+    border: 1px solid #fff;
+    font-size: 14;
+    text-align: center;
+    margin: 6% 0% 0 35%;
+  }
+
+  .textoBajoTitulo {
+    margin: 9% 0 0 -49%;
+    font-size: 23;
+    width: 201%;
+    text-align: center;
+  }
+
+  .divImagenesSeccion1 {
+    background-color: red;
+    display: block;
+    width: 85%;
+    height: 40%;
+    margin: 10% 0 0 7%;
+  }
+
+  .imagen1Home {
+    background-image: url(assets/images/imagen1Home.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    display: inline-block;
+    width: 30%;
+    height: 33%;
+    margin: 10% -10% 0 0%;
+    float: left;
+  }
+
+  #imagen2Home {
+    background-image: url(assets/images/imagen2Home.png);
+  }
+
+  #imagen3Home {
+    background-image: url(assets/images/imagen3Home.png);
+  }
+
+  #imagen4Home {
+    background-image: url(assets/images/imagen4Home.png);
+  }
+
+  #imagen1 {
+    margin-left: 14%;
+  }
+
+  .verMas {
+    margin: 40% 0 0 -60%;
+    text-align: center;
+    font-size: 10;
+  }
+
+  .verMas a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .sectionForm {
+    background-color: #225d5aff;
+    width: 100%;
+    height: 80%;
+    float: center;
     box-sizing: border-box;
+    margin-top: -59%;
+  }
+
+  .textoSobreFormulario {
+    width: 350%;
+    margin: 0 0 0 -40%;
+    text-align: center;
   }
 
   .logoContacto {
@@ -625,184 +932,2343 @@ fieldset {
     display: block;
     width: 80%;
     height: 60%;
-    margin-top: -61%;
+    margin-top: -60%;
     margin-left: 11%;
     background-position: center;
   }
 
-  .sectionForm {
-    background-color: #225d5aff;
-    width: 100%;
-    height: auto;
-    margin-top: -55%;
-    float: center;
+  .div1 {
     display: block;
-    box-sizing: border-box;
+    width: 50%;
+    height: 66%;
+    margin: 1.5% 0 0 10%;
+    font-size: 18;
   }
 
-  .textoFormulario {
-    font-size: 20;
+  .div1 input {
+    width: 275%;
+  }
+
+  .div1 textarea {
+    width: 275%;
+  }
+
+  .botonFormulario {
     margin-left: 30%;
-    margin-bottom: -4%;
-    padding-top: 4%;
-    box-sizing: border-box;
   }
 
-  .formulario {
-    background-color: #225D59;
+  .div2 {
     display: block;
-    width: 100%;
-    height: 40%;
-    margin-top: 0%;
-    margin-left: 20%;
-    padding-top: 0%;
-    font-size: 26;
-    box-sizing: border-box;
-  }
-
-  .botonFomulario {
-    background-repeat: no-repeat;
-    background-color: #1d403fff;
+    width: 70%;
+    height: 75%;
+    margin: -46.65% 0% 0% 37%;
     font-size: 20;
-    color: #fff;
-    margin-left: 28%;
-    margin-top: 2%;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-  }
-
-  .divInfoEmpresa {
-    display: inline-block;
-    width: 100%;
-    height: 35%;
-    margin: -60% 0% -15% -5%;
-  }
-
-  .infoEmpresa {
-    font-size: 34;
-    text-align: center;
-    width: 80%;
-    height: auto;
-    margin: 1% 0% 0% 16%;
-    box-sizing: border-box;
   }
 
   .ubicacion {
     background-image: url(assets/images/ubicacion.png);
     background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 0 0 0 30%;
+  }
+
+  .formDiv1 {
+    width: 80%;
+    height: 95%;
+    display: block;
+    margin: 3% auto;
+  }
+
+  .formDiv1 button {
+    margin: 19% 0 0 98%;
+    background-color: #1d403fff;
+    color: #fff;
+    border: 0;
+  }
+
+  .logo {
+    width: 150%;
+    height: auto;
+    float: right;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 14;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0%;
+    text-align: left !important;
+    padding: 5;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li a {
+    margin: 0 0 0 -10%;
+    text-align: left !important;
+    padding: 5;
+  }
+
+  button.navbar-toggler {
+    margin-left: -10%;
+  }
+
+  .buscador {
+    margin-left: 50%;
+    width: 40%;
+    height: 2%;
+  }
+
+  .buttonBuscador {
+    background-size: 50%;
+    margin-left: 16%;
+    width: 6%;
+    height: 2%;
+    box-sizing: border-box;
+  }
+
+  .section404 {
+    background-color: #0f5757fd;
+    display: block;
+    width: 100%;
+    height: 30%;
+    margin: -3.5% 0% 0 0;
+    padding-top: 1%;
+  }
+
+  .texto404 {
+    display: block;
+    width: 80%;
+    height: 10%;
+    font-size: 20;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .texto404 p {
+    margin-top: 10%;
+  }
+
+  .divGif {
+    width: 100%;
+    height: 55%;
+    margin: 0 auto;
+  }
+
+  .gif {
+    background-image: url(assets/images/404.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 50%;
+    height: 45%;
+    margin: 2% auto;
+  }
+
+  .button404 {
+    margin-top: 25%;
+    font-size: 20;
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #1d403fff;
+    width: 100%;
+    height: 25%;
+    margin: -10% 0 0% 0;
+    box-sizing: border-box;
+  }
+
+  .textoFooter {
+    font-size: 20;
+    width: 20%;
+    height: 20%;
+    float: left;
+    color: #fff;
+  }
+
+  .divTextoFooter {
+    display: block;
+    width: 100%;
+    height: 19%;
+    margin: 5% auto;
+    text-align: center;
+    color: #fff;
+  }
+
+  #texto1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    font-size: 12;
+  }
+
+  #derechos {
+    display: block;
+    width: 300%;
+    height: 40%;
+    margin-left: 4%;
+    font-size: 12;
+  }
+
+  .footerForm {
+    display: inline-block;
+    width: 70%;
+    height: 20%;
+    float: right;
+    margin: 0 10% 0% 0;
+  }
+
+  .enviarCorreo {
+    background-color: #225D59;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #225D59;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+  }
+
+  .divBotton {
+    background-color: red;
+    display: inline-block;
+    width: 10%;
+    height: auto;
+  }
+
+  #enviarCorreoBoton {
+    background-size: 100%;
+    background-position: center;
+    width: 11%;
+    height: 50%;
+    margin-top: -1%;
+    border-radius: 60%;
+    border: 1px solid #088383ff;
+    padding: 0;
+  }
+
+  .redesSociales {
+    display: block;
+    width: 80%;
+    height: 20%;
+    margin: 42% 0 0 10%;
+  }
+
+  .facebook {
+    background-image: url(assets/images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
+  }
+
+  .instagram {
+    background-image: url(assets/images/instagram.png);
+    background-repeat: no-repeat;
     background-size: 60%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .twitter {
+    background-image: url(assets/images/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .google {
+    background-image: url(assets/images/google.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .seccionNosotros {
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 95%;
+    margin: 10% 0 0 0;
+  }
+
+  .divNosotros1 {
+    background-color: #225d5aff;
     display: block;
     width: 75%;
+    height: 24%;
+  }
+
+  #divNosotrosPrimero {
+    float: left;
+  }
+
+  #divNosotrosSegundo {
+    float: right;
+  }
+
+  #divNosotrosTercero {
+    float: left;
+  }
+
+  #divNosotrosCuarto {
+    float: right;
+  }
+
+  .imagenNosotrosDerecha {
+    background-image: url(assets/images/basket.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 84%;
+  }
+
+  .imagenNosotrosDerecha2 {
+    background-image: url(assets/images/volley.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 84%;
+  }
+
+  .imagenNosotrosIzquierda1 {
+    background-image: url(assets/images/tenis.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .imagenNosotrosIzquierda2 {
+    background-image: url(assets/images/nosotros1.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .tituloIzquierda {
+    color: #fff;
+    margin: 0% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 22;
+  }
+
+  .tituloDerecha {
+    color: #fff;
+    width: 50%;
+    margin: 0% 0 0 90%;
+    text-align: left;
+    z-index: 10;
+    font-size: 22;
+  }
+
+  .textoIzquierda {
+    color: #fff;
+    width: 150%;
+    margin: -10% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 14;
+  }
+
+  .textoDerecha {
+    color: #fff;
+    width: 150%;
+    margin: 0% 0 0 100%;
+    text-align: left;
+    z-index: 10;
+    font-size: 14;
+  }
+
+  .imagenNosotros2 {
+    background-image: url(assets/images/nosotros1.jpg);
+  }
+
+  #logoHome {
+    background-image: url(assets/images/logoHome.png);
+  }
+
+  .seccionHome1 {
+    background-image: url(assets/images/gimnasioIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 83%;
+    margin-top: -1%;
+    padding-top: 5%;
+  }
+
+  .seccionHome2 {
+    background-image: url(assets/images/promosIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 68%;
+    padding-top: 5%;
+  }
+
+  .tituloSeccion2Home {
+    background-color: transparent;
+    display: block;
+    width: 28%;
+    height: 13%;
+    border: 1px solid #fff;
+    font-size: 24;
+    text-align: center;
+    margin: 0% 0% 0 35%;
+  }
+
+  .tituloSeccion2Home p {
+    margin: 2% 0 0 0%;
+  }
+
+  .promociones {
+    background-image: url(assets/images/promos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 60%;
+    height: 70%;
+    margin: 7% 0 0 20%;
+  }
+
+  .textoAsociados {
+    display: block;
+    width: 50%;
+    height: 40%;
+    margin: 0% 0 0 50%;
+    padding-top: -1%;
+    font-size: 18;
+  }
+
+  .anterior {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 2%;
+    height: 10%;
+    margin: -28% 0% 0% 15%;
+    border: 0px;
+  }
+
+  .siguiente {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 2%;
+    height: 10%;
+    margin: -5.7% 0 0 83%;
+    border: 0px;
+  }
+
+  .seccionHome3 {
+    background-image: url(assets/images/jornadaIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 121%;
+    padding-top: 5%;
+    margin-bottom: -1.4%;
+    margin-top: -1.6%;
+  }
+
+  .tituloSeccion3Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 6%;
+    border: 1px solid #fff;
+    font-size: 18;
+    text-align: center;
+    margin: 5% 0% 0 35%;
+  }
+
+  .textoBajoTituloSeccion3 {
+    margin: 8% 0 0 0;
+    font-size: 18;
+    text-align: center;
+  }
+
+  .resultados {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 73%;
+    height: 60%;
+    margin: 1% -10% 0 14%;
+    float: left;
+  }
+
+  .anteriorSeccion3 {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: 41% 0% 0% -8%;
+    border: 0px;
+  }
+
+  .siguienteSeccion3 {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: -10.7% 0 0 104%;
+    border: 0px;
+  }
+
+  .divBotonesSeccion3 {
+    background-color: red;
+    display: block;
+    width: 40%;
+    height: 20%;
+  }
+
+  .tituloSeccion1Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 13%;
+    border: 1px solid #fff;
+    font-size: 22;
+    text-align: center;
+    margin: 6% 0% 0 35%;
+  }
+
+  .textoBajoTitulo {
+    margin: 9% 0 0 -49%;
+    font-size: 23;
+    width: 201%;
+    text-align: center;
+  }
+
+  .divImagenesSeccion1 {
+    background-color: red;
+    display: block;
+    width: 85%;
+    height: 40%;
+    margin: 10% 0 0 7%;
+  }
+
+  .imagen1Home {
+    background-image: url(assets/images/imagen1Home.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    display: inline-block;
+    width: 30%;
+    height: 33%;
+    margin: 10% -10% 0 0%;
+    float: left;
+  }
+
+  #imagen2Home {
+    background-image: url(assets/images/imagen2Home.png);
+  }
+
+  #imagen3Home {
+    background-image: url(assets/images/imagen3Home.png);
+  }
+
+  #imagen4Home {
+    background-image: url(assets/images/imagen4Home.png);
+  }
+
+  #imagen1 {
+    margin-left: 14%;
+  }
+
+  .verMas {
+    margin: 40% 0 0 -60%;
+    text-align: center;
+    font-size: 10;
+  }
+
+  .verMas a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .sectionForm {
+    background-color: #225d5aff;
+    width: 100%;
+    height: 180%;
+    float: center;
+    box-sizing: border-box;
+    margin-top: 0%;
+  }
+
+  .textoSobreFormulario {
+    width: 350%;
+    margin: 0 0 0 -40%;
+    text-align: center;
+  }
+
+  .logoContacto {
+    background-image: url(assets/images/logoContacto.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: block;
+    width: 80%;
+    height: 60%;
+    margin-top: 0%;
+    margin-left: 11%;
+    background-position: center;
+  }
+
+  .div1 {
+    display: block;
+    width: 50%;
+    height: 60%;
+    margin: 1.5% 0 0 10%;
+    font-size: 18;
+  }
+
+  .div1 input {
+    width: 275%;
+  }
+
+  .div1 textarea {
+    width: 275%;
+  }
+
+  .botonFormulario {
+    margin-left: 30%;
+  }
+
+  .div2 {
+    display: block;
+    width: 70%;
+    height: 75%;
+    margin: -45.65% 0% 0% 35%;
+    font-size: 20;
+  }
+
+  .ubicacion {
+    background-image: url(assets/images/ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 12%;
+    margin: 0 0 0 30%;
+  }
+
+  .formDiv1 {
+    width: 80%;
+    height: 95%;
+    display: block;
+    margin: 3% auto;
+  }
+
+  .formDiv1 button {
+    margin: 19% 0 0 98%;
+    background-color: #1d403fff;
+    color: #fff;
+    border: 0;
+  }
+
+  .logo {
+    width: 200%;
+    height: auto;
+    float: right;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 14;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0%;
+    text-align: left !important;
+    padding: 5;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li a {
+    margin: 0 0 0 -10%;
+    text-align: left !important;
+    padding: 5;
+  }
+
+  button.navbar-toggler {
+    margin-left: -10%;
+  }
+
+  .buscador {
+    margin-left: 60%;
+    width: 30%;
+    height: 4%;
+  }
+
+  .buttonBuscador {
+    background-size: 50%;
+    margin-left: 16%;
+    width: 4%;
+    height: 4%;
+    box-sizing: border-box;
+  }
+
+  .section404 {
+    background-color: #0f5757fd;
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin: -1.53% 0% 0 0;
+    padding-top: 1%;
+  }
+
+  .texto404 {
+    display: block;
+    width: 80%;
+    height: 10%;
+    font-size: 20;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .texto404 p {
+    margin-top: 10%;
+  }
+
+  .divGif {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+  }
+
+  .gif {
+    background-image: url(assets/images/404.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 50%;
+    height: 45%;
+    margin: 2% auto;
+  }
+
+  .button404 {
+    margin-top: 10%;
+    font-size: 20;
+    width: 25%;
+    height: 10%;
+    margin-left: 37%;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #1d403fff;
+    width: 100%;
+    height: 60%;
+    margin: -10% 0 0% 0;
+    box-sizing: border-box;
+  }
+
+  .textoFooter {
+    font-size: 20;
+    width: 20%;
+    height: 20%;
+    float: left;
+    color: #fff;
+  }
+
+  .divTextoFooter {
+    display: block;
+    width: 100%;
+    height: 19%;
+    margin: 5% auto;
+    text-align: center;
+    color: #fff;
+  }
+
+  #texto1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    font-size: 16;
+  }
+
+  #derechos {
+    display: block;
+    width: 300%;
+    height: 40%;
+    margin-left: 8%;
+    font-size: 16;
+  }
+
+  .footerForm {
+    display: inline-block;
+    width: 70%;
+    height: 20%;
+    float: right;
+    margin: 0 10% 0% 0;
+  }
+
+  .enviarCorreo {
+    background-color: #225D59;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #225D59;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin-left: 15%;
+  }
+
+  .divBotton {
+    background-color: red;
+    display: inline-block;
+    width: 10%;
+    height: auto;
+  }
+
+  #enviarCorreoBoton {
+    background-size: 100%;
+    background-position: center;
+    width: 6%;
     height: 35%;
-    margin: 10% 0% 0% 35%;
+    margin-top: -1%;
+    border-radius: 60%;
+    border: 1px solid #088383ff;
+    padding: 0;
+  }
+
+  .redesSociales {
+    display: block;
+    width: 80%;
+    height: 20%;
+    margin: 31% 0 0 10%;
+  }
+
+  .facebook {
+    background-image: url(assets/images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
+  }
+
+  .instagram {
+    background-image: url(assets/images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .twitter {
+    background-image: url(assets/images/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .google {
+    background-image: url(assets/images/google.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .seccionNosotros {
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 45%;
+    margin: -16% 0 0 0;
+  }
+
+  .divNosotros1 {
+    background-color: #225d5aff;
+    display: block;
+    width: 75%;
+    height: 24.25%;
+  }
+
+  #divNosotrosPrimero {
+    float: left;
+  }
+
+  #divNosotrosSegundo {
+    float: right;
+  }
+
+  #divNosotrosTercero {
+    float: left;
+  }
+
+  #divNosotrosCuarto {
+    float: right;
+  }
+
+  .imagenNosotrosDerecha {
+    background-image: url(assets/images/basket.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 84%;
+  }
+
+  .imagenNosotrosDerecha2 {
+    background-image: url(assets/images/volley.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 84%;
+  }
+
+  .imagenNosotrosIzquierda1 {
+    background-image: url(assets/images/tenis.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .imagenNosotrosIzquierda2 {
+    background-image: url(assets/images/nosotros1.jpg);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .tituloIzquierda {
+    color: #fff;
+    margin: 0% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 30;
+  }
+
+  .tituloDerecha {
+    color: #fff;
+    width: 50%;
+    margin: 0% 0 0 90%;
+    text-align: left;
+    z-index: 10;
+    font-size: 30;
+  }
+
+  .textoIzquierda {
+    color: #fff;
+    width: 150%;
+    margin: -10% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 14;
+  }
+
+  .textoDerecha {
+    color: #fff;
+    width: 150%;
+    margin: 0% 0 0 100%;
+    text-align: left;
+    z-index: 10;
+    font-size: 14;
+  }
+
+  .imagenNosotros2 {
+    background-image: url(assets/images/nosotros1.jpg);
+  }
+
+  #logoHome {
+    background-image: url(assets/images/logoHome.png);
+  }
+
+  .seccionHome1 {
+    background-image: url(assets/images/gimnasioIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 41%;
+    margin-top: -16%;
+    padding-top: 5%;
+  }
+
+  .seccionHome2 {
+    background-image: url(assets/images/promosIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 26%;
+    padding-top: 5%;
+  }
+
+  .tituloSeccion2Home {
+    background-color: transparent;
+    display: block;
+    width: 28%;
+    height: 13%;
+    border: 1px solid #fff;
+    font-size: 24;
+    text-align: center;
+    margin: 0% 0% 0 35%;
+  }
+
+  .tituloSeccion2Home p {
+    margin: 2% 0 0 0%;
+  }
+
+  .promociones {
+    background-image: url(assets/images/promos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 60%;
+    height: 70%;
+    margin: 7% 0 0 20%;
+  }
+
+  .textoAsociados {
+    display: block;
+    width: 50%;
+    height: 40%;
+    margin: 0% 0 0 50%;
+    padding-top: -1%;
+    font-size: 18;
+  }
+
+  .anterior {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 2%;
+    height: 10%;
+    margin: -24% 0% 0% 15%;
+    border: 0px;
+  }
+
+  .siguiente {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 2%;
+    height: 10%;
+    margin: -4.7% 0 0 83%;
+    border: 0px;
+  }
+
+  .seccionHome3 {
+    background-image: url(assets/images/jornadaIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-top: 5%;
+    margin-bottom: -1.4%;
+    margin-top: -1.6%;
+  }
+
+  .tituloSeccion3Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 6%;
+    border: 1px solid #fff;
+    font-size: 24;
+    text-align: center;
+    margin: 5% 0% 0 35%;
+  }
+
+  .textoBajoTituloSeccion3 {
+    margin: 8% 0 0 0;
+    font-size: 26;
+    text-align: center;
+  }
+
+  .resultados {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 73%;
+    height: 60%;
+    margin: 1% -10% 0 14%;
+    float: left;
+  }
+
+  .anteriorSeccion3 {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: 41% 0% 0% -8%;
+    border: 0px;
+  }
+
+  .siguienteSeccion3 {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: -10.7% 0 0 104%;
+    border: 0px;
+  }
+
+  .divBotonesSeccion3 {
+    background-color: red;
+    display: block;
+    width: 40%;
+    height: 20%;
+  }
+
+  .tituloSeccion1Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 13%;
+    border: 1px solid #fff;
+    font-size: 30;
+    text-align: center;
+    margin: 6% 0% 0 35%;
+  }
+
+  .textoBajoTitulo {
+    margin: 9% 0 0 -49%;
+    font-size: 34;
+    width: 201%;
+    text-align: center;
+  }
+
+  .divImagenesSeccion1 {
+    background-color: red;
+    display: block;
+    width: 85%;
+    height: 40%;
+    margin: 10% 0 0 7%;
+  }
+
+  .imagen1Home {
+    background-image: url(assets/images/imagen1Home.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    display: inline-block;
+    width: 30%;
+    height: 33%;
+    margin: 10% -10% 0 0%;
+    float: left;
+  }
+
+  #imagen2Home {
+    background-image: url(assets/images/imagen2Home.png);
+  }
+
+  #imagen3Home {
+    background-image: url(assets/images/imagen3Home.png);
+  }
+
+  #imagen4Home {
+    background-image: url(assets/images/imagen4Home.png);
+  }
+
+  #imagen1 {
+    margin-left: 14%;
+  }
+
+  .verMas {
+    margin: 40% 0 0 -60%;
+    text-align: center;
+    font-size: 20;
+  }
+
+  .verMas a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .sectionForm {
+    background-color: #225d5aff;
+    width: 100%;
+    height: 60%;
+    float: center;
+    box-sizing: border-box;
+    margin-top: -30%;
+  }
+
+  .textoSobreFormulario {
+    width: 350%;
+    margin: 0 0 0 -40%;
+    text-align: center;
+    font-size: 28;
+  }
+
+  .logoContacto {
+    background-image: url(assets/images/logoContacto.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: block;
+    width: 80%;
+    height: 60%;
+    margin-top: -40%;
+    margin-left: 11%;
+    background-position: center;
+  }
+
+  .div1 {
+    display: block;
+    width: 50%;
+    height: 68%;
+    margin: 1.5% 0 0 10%;
+    font-size: 18;
+  }
+
+  .div1 input {
+    width: 275%;
+  }
+
+  .div1 textarea {
+    width: 275%;
+  }
+
+  .botonFormulario {
+    margin-left: 118%;
+  }
+
+  .div2 {
+    display: block;
+    width: 70%;
+    height: 75%;
+    margin: -15.65% 0% 0% 34%;
+    font-size: 20;
+  }
+
+  .ubicacion {
+    background-image: url(assets/images/ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 12%;
+    margin: 0 0 0 30%;
+  }
+
+  .formDiv1 {
+    width: 80%;
+    height: 95%;
+    display: block;
+    margin: 3% auto;
+  }
+
+  .formDiv1 button {
+    margin: 19% 0 0 98%;
+    background-color: #1d403fff;
+    color: #fff;
+    border: 0;
+  }
+
+  .logo {
+    width: 200%;
+    height: auto;
+    float: right;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 15;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0%;
+    text-align: left !important;
+    padding: 5;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li a {
+    margin: 0 0 0 -10%;
+    text-align: left !important;
+    padding: 5;
+  }
+
+  button.navbar-toggler {
+    margin-left: -10%;
+  }
+
+  .buscador {
+    margin-left: 60%;
+    width: 30%;
+    height: 1.5%;
+  }
+
+  .buttonBuscador {
+    background-size: 50%;
+    margin-left: 16%;
+    width: 3.5%;
+    height: 1.5%;
+    box-sizing: border-box;
+  }
+
+  .section404 {
+    background-color: #0f5757fd;
+    display: block;
+    width: 100%;
+    height: 40%;
+    margin: -2% 0% 0 0;
+    padding-top: 1%;
+  }
+
+  .texto404 {
+    display: block;
+    width: 80%;
+    height: 10%;
+    font-size: 28;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .texto404 p {
+    margin-top: 10%;
+    margin-left: 8%;
+  }
+
+  .divGif {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+  }
+
+  .gif {
+    background-image: url(assets/images/404.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    display: block;
+    width: 50%;
+    height: 45%;
+    margin: 10% 0 0 27%;
+  }
+
+  .button404 {
+    margin-top: 17%;
+    font-size: 34;
+    width: 30%;
+    height: 18%;
+    margin-left: 37%;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #1d403fff;
+    width: 100%;
+    height: 15%;
+    margin: -10% 0 0% 0;
+    box-sizing: border-box;
+  }
+
+  .textoFooter {
+    font-size: 20;
+    width: 20%;
+    height: 20%;
+    float: left;
+    color: #fff;
+  }
+
+  .divTextoFooter {
+    display: block;
+    width: 100%;
+    height: 19%;
+    margin: 5% auto;
+    text-align: center;
+    color: #fff;
+  }
+
+  #texto1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    font-size: 18;
+  }
+
+  #derechos {
+    display: block;
+    width: 300%;
+    height: 40%;
+    margin-left: 20%;
+    font-size: 14;
+  }
+
+  .footerForm {
+    display: inline-block;
+    width: 70%;
+    height: 20%;
+    float: right;
+    margin: 0 10% 0% 0;
+  }
+
+  .enviarCorreo {
+    background-color: #225D59;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #225D59;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin-left: 25%;
+  }
+
+  .divBotton {
+    background-color: red;
+    display: inline-block;
+    width: 10%;
+    height: auto;
+  }
+
+  #enviarCorreoBoton {
+    background-size: 100%;
+    background-position: center;
+    width: 5%;
+    height: 50%;
+    margin-top: -1%;
+    border-radius: 60%;
+    border: 1px solid #088383ff;
+    padding: 0;
+  }
+
+  .redesSociales {
+    display: block;
+    width: 80%;
+    height: 20%;
+    margin: 15% 0 0 15%;
+  }
+
+  .facebook {
+    background-image: url(assets/images/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
+  }
+
+  .instagram {
+    background-image: url(assets/images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .twitter {
+    background-image: url(assets/images/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+
+  .google {
+    background-image: url(assets/images/google.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .seccionNosotros {
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 64%;
+    margin: 8% 0 0 0;
+  }
+
+  .divNosotros1 {
+    background-color: #225d5aff;
+    display: block;
+    width: 75%;
+    height: 23.47%;
+  }
+
+  #divNosotrosPrimero {
+    float: left;
+  }
+
+  #divNosotrosSegundo {
+    float: right;
+  }
+
+  #divNosotrosTercero {
+    float: left;
+  }
+
+  #divNosotrosCuarto {
+    float: right;
+  }
+
+  .imagenNosotrosDerecha {
+    background-image: url(assets/images/basket.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 92%;
+  }
+
+  .imagenNosotrosDerecha2 {
+    background-image: url(assets/images/volley.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 92%;
+  }
+
+  .imagenNosotrosIzquierda1 {
+    background-image: url(assets/images/tenis.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .imagenNosotrosIzquierda2 {
+    background-image: url(assets/images/nosotros1.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin: 0 0 0 -34%;
+  }
+
+  .tituloIzquierda {
+    color: #fff;
+    margin: 0% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 30;
+  }
+
+  .tituloDerecha {
+    color: #fff;
+    width: 50%;
+    margin: 0% 0 0 90%;
+    text-align: left;
+    z-index: 10;
+    font-size: 30;
+  }
+
+  .textoIzquierda {
+    color: #fff;
+    width: 150%;
+    margin: -10% 0 0 -130%;
+    text-align: left;
+    z-index: 10;
+    font-size: 20;
+  }
+
+  .textoDerecha {
+    color: #fff;
+    width: 150%;
+    margin: 0% 0 0 100%;
+    text-align: left;
+    z-index: 10;
+    font-size: 20;
+  }
+
+  .imagenNosotros2 {
+    background-image: url(assets/images/nosotros1.jpg);
+  }
+
+  #logoHome {
+    background-image: url(assets/images/logoHome.png);
+  }
+
+  .seccionHome1 {
+    background-image: url(assets/images/gimnasioIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 62%;
+    margin-top: -5%;
+    padding-top: 5%;
+  }
+
+  .seccionHome2 {
+    background-image: url(assets/images/promosIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 46%;
+    padding-top: 5%;
+  }
+
+  .tituloSeccion2Home {
+    background-color: transparent;
+    display: block;
+    width: 28%;
+    height: 13%;
+    border: 1px solid #fff;
+    font-size: 36;
+    text-align: center;
+    margin: 0% 0% 0 35%;
+  }
+
+  .tituloSeccion2Home p {
+    margin: 2% 0 0 0%;
+  }
+
+  .promociones {
+    background-image: url(assets/images/promos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 60%;
+    height: 70%;
+    margin: 7% 0 0 20%;
+  }
+
+  .textoAsociados {
+    display: block;
+    width: 50%;
+    height: 40%;
+    margin: 0% 0 0 50%;
+    padding-top: -1%;
+    font-size: 27;
+  }
+
+  .anterior {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 2%;
+    height: 10%;
+    margin: -24% 0% 0% 15%;
+    border: 0px;
+  }
+
+  .siguiente {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 2%;
+    height: 10%;
+    margin: -4.7% 0 0 83%;
+    border: 0px;
+  }
+
+  .seccionHome3 {
+    background-image: url(assets/images/jornadaIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    height: 90%;
+    padding-top: 5%;
+    margin-bottom: -1.4%;
+    margin-top: -1.6%;
+  }
+
+  .tituloSeccion3Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 6%;
+    border: 1px solid #fff;
+    font-size: 24;
+    text-align: center;
+    margin: 5% 0% 0 35%;
+  }
+
+  .textoBajoTituloSeccion3 {
+    margin: 8% 0 0 0;
+    font-size: 26;
+    text-align: center;
+  }
+
+  .resultados {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 73%;
+    height: 60%;
+    margin: 1% -10% 0 14%;
+    float: left;
+  }
+
+  .anteriorSeccion3 {
+    background-image: url(assets/images/anterior.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: 41% 0% 0% -8%;
+    border: 0px;
+  }
+
+  .siguienteSeccion3 {
+    background-image: url(assets/images/siguiente.png);
+    background-color: transparent;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 5%;
+    height: 13%;
+    margin: -10.7% 0 0 104%;
+    border: 0px;
+  }
+
+  .divBotonesSeccion3 {
+    background-color: red;
+    display: block;
+    width: 40%;
+    height: 20%;
+  }
+
+  .tituloSeccion1Home {
+    background-color: transparent;
+    display: block;
+    width: 30%;
+    height: 13%;
+    border: 1px solid #fff;
+    font-size: 30;
+    text-align: center;
+    margin: 6% 0% 0 35%;
+  }
+
+  .textoBajoTitulo {
+    margin: 9% 0 0 -49%;
+    font-size: 34;
+    width: 201%;
+    text-align: center;
+  }
+
+  .divImagenesSeccion1 {
+    background-color: red;
+    display: block;
+    width: 85%;
+    height: 40%;
+    margin: 10% 0 0 7%;
+  }
+
+  .imagen1Home {
+    background-image: url(assets/images/imagen1Home.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    display: inline-block;
+    width: 30%;
+    height: 33%;
+    margin: 10% -10% 0 0%;
+    float: left;
+  }
+
+  #imagen2Home {
+    background-image: url(assets/images/imagen2Home.png);
+  }
+
+  #imagen3Home {
+    background-image: url(assets/images/imagen3Home.png);
+  }
+
+  #imagen4Home {
+    background-image: url(assets/images/imagen4Home.png);
+  }
+
+  #imagen1 {
+    margin-left: 14%;
+  }
+
+  .verMas {
+    margin: 40% 0 0 -60%;
+    text-align: center;
+    font-size: 20;
+  }
+
+  .verMas a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .sectionForm {
+    background-color: #225d5aff;
+    width: 100%;
+    height: 80%;
+    float: center;
+    box-sizing: border-box;
+    margin-top: 0%;
+  }
+
+  .textoSobreFormulario {
+    width: 350%;
+    margin: 0 0 0 -40%;
+    text-align: center;
+    font-size: 28;
+  }
+
+  .logoContacto {
+    background-image: url(assets/images/logoContacto.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: block;
+    width: 80%;
+    height: 60%;
+    margin-top: 0%;
+    margin-left: 11%;
+    background-position: center;
+  }
+
+  .div1 {
+    display: block;
+    width: 50%;
+    height: 73%;
+    margin: 1.5% 0 0 10%;
+    font-size: 18;
+  }
+
+  .div1 input {
+    width: 275%;
+  }
+
+  .div1 textarea {
+    width: 275%;
+  }
+
+  .botonFormulario {
+    margin-left: 121%;
+  }
+
+  .div2 {
+    display: block;
+    width: 70%;
+    height: 75%;
+    margin: -19.65% 0% 0% 32%;
+    font-size: 20;
+  }
+
+  .ubicacion {
+    background-image: url(assets/images/ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: block;
+    width: 60%;
+    height: 12%;
+    margin: 0 0 0 30%;
+  }
+
+  .formDiv1 {
+    width: 80%;
+    height: 95%;
+    display: block;
+    margin: 3% auto;
+  }
+
+  .formDiv1 button {
+    margin: 19% 0 0 98%;
+    background-color: #1d403fff;
+    color: #fff;
+    border: 0;
+  }
+
+  .logo {
+    width: 250%;
+    height: auto;
+    float: right;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 24;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0%;
+    text-align: left !important;
+    padding: 5;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li a {
+    margin: 0 0 0 -10%;
+    text-align: left !important;
+    padding: 5;
+  }
+
+  button.navbar-toggler {
+    margin-left: -10%;
+  }
+
+  .buscador {
+    margin-left: 70%;
+    width: 20%;
+    height: 2%;
+  }
+
+  .buttonBuscador {
+    background-size: 50%;
+    margin-left: 16%;
+    width: 2.5%;
+    height: 2%;
+    box-sizing: border-box;
+  }
+
+  .section404 {
+    background-color: #0f5757fd;
+    display: block;
+    width: 100%;
+    height: 55%;
+    margin: -1% 0% 0 0;
+    padding-top: 1%;
+  }
+
+  .texto404 {
+    display: block;
+    width: 80%;
+    height: 10%;
+    font-size: 28;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .texto404 p {
+    margin-top: 10%;
+    margin-left: 4%;
+  }
+
+  .divGif {
+    width: 100%;
+    height: 62%;
+    margin: 0 auto;
+  }
+
+  .gif {
+    background-image: url(assets/images/404.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    display: block;
+    width: 50%;
+    height: 45%;
+    margin: 10% 0 0 30%;
+  }
+
+  .button404 {
+    margin-top: 10%;
+    font-size: 28;
+    width: 20%;
+    height: 12%;
+    margin-left: 40%;
+    text-align: center;
   }
 
   .footer {
     background-color: #1d403fff;
     width: 100%;
     height: 20%;
-    margin-top: 0%;
+    margin: -10% 0 0% 0;
     box-sizing: border-box;
   }
 
   .textoFooter {
-    display: inline-block;
-    font-size: 16;
+    font-size: 20;
+    width: 20%;
+    height: 20%;
+    float: left;
+    color: #fff;
+  }
+
+  .divTextoFooter {
+    display: block;
     width: 100%;
-    height: auto;
+    height: 19%;
+    margin: 5% auto;
     text-align: center;
-    margin: 0% 0 0 0%;
+    color: #fff;
   }
 
   #texto1 {
-    margin: 0% 0 0 0%;
-  }
-
-  #texto2 {
-    margin: 0% 0 0 0%;
-  }
-
-  #texto3 {
-    margin: 0% 0 0 0%;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    font-size: 24;
   }
 
   #derechos {
     display: block;
-    width: 28%;
-    height: 10%;
-    margin: 1.7% 0 0% 70%;
+    width: 300%;
+    height: 40%;
+    margin-left: 18%;
+    font-size: 22;
+  }
+
+  .footerForm {
+    display: inline-block;
+    width: 70%;
+    height: 20%;
+    float: right;
+    margin: 0 10% 0% 0;
   }
 
   .enviarCorreo {
-    margin-right: 40%;
-    margin-top: 1%;
+    background-color: #225D59;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #225D59;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 0%;
+    width: 40%;
+  }
+
+  .divBotton {
+    background-color: red;
+    display: inline-block;
+    width: 10%;
+    height: auto;
   }
 
   #enviarCorreoBoton {
     background-size: 100%;
-    margin: -3% 0 0% 61%;
-    width: 3%;
-    height: 5%;
-  }
-
-  #derechos {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 1.7% 0 0% 0%;
+    background-position: center;
+    width: 4%;
+    height: 57%;
+    margin-top: -1%;
+    border-radius: 60%;
+    border: 1px solid #088383ff;
+    padding: 0;
   }
 
   .redesSociales {
     display: block;
-    width: 100%;
-    height: auto;
-    margin: 0% 0 0 3%;
+    width: 80%;
+    height: 20%;
+    margin: 15% 0 0 18%;
   }
 
   .facebook {
     background-image: url(assets/images/facebook.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    margin: 0% 0 0% 10%;
-    float: left;
-    width: 10%;
-    height: 20%;
+    background-size: 30%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
   }
 
   .instagram {
     background-image: url(assets/images/instagram.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    margin: 0% 0 0% 10%;
-    float: left;
-    width: 10%;
-    height: 20%;
+    background-size: 30%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0%;
   }
 
   .twitter {
     background-image: url(assets/images/twitter.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    margin: 0% 0 0% 10%;
-    float: left;
-    width: 10%;
-    height: 20%;
+    background-size: 30%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0%;
   }
 
   .google {
     background-image: url(assets/images/google.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    margin: 0% 0 0% 10%;
-    float: left;
-    width: 10%;
-    height: 20%;
+    background-size: 30%;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0%;
   }
+}
+.div1 {
+  display: inline-block;
+  width: 35%;
+  height: 75%;
+  margin: 1.5% 0 0 10%;
+  font-size: 18;
+}
+
+.div2 {
+  display: block;
+  width: 35%;
+  height: 75%;
+  margin: -30.65% 0% 0% 55%;
+  font-size: 20;
+  text-align: center;
+}
+
+.ubicacion {
+  background-image: url(assets/images/ubicacion.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 0 0 0 30%;
+}
+
+.formDiv1 {
+  width: 80%;
+  height: 95%;
+  display: block;
+  margin: 3% auto;
+}
+
+.botonFormulario {
+  margin: 1% 0 0 40%;
+  background-color: #1d403fff;
+  color: #fff;
+  border: 0;
+}
+
+.botonFormulario:hover {
+  margin: 1% 0 0 40%;
+  background-color: #088383ff;
+  color: #fff;
+  border: 0;
+}
+
+#logoNosotros {
+  background-image: url(assets/images/logoNosotros.png);
+}
+
+.seccionNosotros {
+  background-color: red;
+  display: block;
+  width: 100%;
+  height: 95%;
+  margin: 10% 0 0 0;
+}
+
+.divNosotros1 {
+  background-color: #225d5aff;
+  display: block;
+  width: 75%;
+  height: 23.47%;
+}
+
+#divNosotrosPrimero {
+  float: left;
+}
+
+#divNosotrosSegundo {
+  float: right;
+}
+
+#divNosotrosTercero {
+  float: left;
+}
+
+#divNosotrosCuarto {
+  float: right;
+}
+
+.imagenNosotrosDerecha {
+  background-image: url(assets/images/basket.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 92%;
+}
+
+.imagenNosotrosDerecha2 {
+  background-image: url(assets/images/volley.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 92%;
+}
+
+.imagenNosotrosIzquierda1 {
+  background-image: url(assets/images/tenis.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 -34%;
+}
+
+.imagenNosotrosIzquierda2 {
+  background-image: url(assets/images/nosotros1.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 -34%;
+}
+
+.tituloIzquierda {
+  color: #fff;
+  margin: 0% 0 0 -150%;
+  text-align: left;
+  z-index: 10;
+  font-size: 30;
+}
+
+.tituloDerecha {
+  color: #fff;
+  width: 50%;
+  margin: 0% 0 0 80%;
+  text-align: left;
+  z-index: 10;
+  font-size: 30;
+}
+
+.textoIzquierda {
+  color: #fff;
+  width: 100%;
+  margin: 0% 0 0 -130%;
+  text-align: left;
+  z-index: 10;
+  font-size: 24;
+}
+
+.textoDerecha {
+  color: #fff;
+  width: 100%;
+  margin: 0% 0 0 100%;
+  text-align: left;
+  z-index: 10;
+  font-size: 24;
+}
+
+.imagenNosotros2 {
+  background-image: url(assets/images/nosotros1.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
