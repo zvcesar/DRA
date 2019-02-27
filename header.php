@@ -5,6 +5,7 @@
 	<?php wp_head();?>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial- scale=1,shrink-to-fit=no">
 </head>
 <body <?php body_class();?>>
     
@@ -30,11 +31,5 @@
             ?>
         </div>
     </section>
-    <div>
-    <FORM method=GET  target="_blank">
-    <div class="">
-    <INPUT TYPE=text id="s" name="q" value="" size="25" class="buscador" />
-    <button type="" class="buttonBuscador"><img src=""></button>
-    </div>
-    </div>
+    
 </nav>

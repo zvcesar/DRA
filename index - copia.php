@@ -37,15 +37,12 @@
 				precios especiales en<br>
 				diferentes gimnasios
 				</p>
-				<p class="linkVerMas"><a href="">Ver Más</a></p>
 			</div>
 		</div>
 
 		<div class="">
-			<FORM action="Functions.php" method="post">
-			<button  class="anterior" onclick=""></button>
-			<button  class="siguiente" onclick=""></button>
-			</FORM>
+			<button type="submit" class="anterior"></button>
+			<button type="submit" class="siguiente"></button>
 		</div>
 		
 	</section>
@@ -59,8 +56,8 @@
 		<div class="textoBajoTituloSeccion3"><p>Consultá algunos de los<br>resultados más importantes<br>a nivel munidal</p></div>
 
 		<div class="resultados">
-			<button class="anteriorSeccion3" onclick="adelante()"></button>
-			<button class="siguienteSeccion3" onclick="atras()"></button>
+			<button class="anteriorSeccion3"></button>
+			<button class="siguienteSeccion3"></button>
 		</div>
 		
 		

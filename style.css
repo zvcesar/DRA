@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  Theme Name: TM7200
  Template Theme URI: http://www.srp.ucr.ac.cr/
@@ -18,6 +19,7 @@ body {
   color: #fff;
 }
 
+/*Esta clase se utiliza en varias paginas para colocar el titulo de la misma*/
 .sectionLogoPagina {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -28,6 +30,8 @@ body {
   color: #fff;
 }
 
+/*fIN DE LA SECCION LOGO PAGINA*/
+/*Menu de navegacion*/
 .logo {
   background-image: url(assets/images/logo.png);
   background-repeat: no-repeat;
@@ -53,12 +57,12 @@ nav.navbar {
 nav.navbar .nav li a {
   text-decoration: none;
   color: #225D59 !important;
-  font-size: 20;
+  font-size: 20 !important;
   border-left: 1px solid #225D59 !important;
   opacity: 1 !important;
-  margin: 0 50 0 20%;
+  margin: 0 50 0 58% !important;
   text-align: center !important;
-  padding: 30;
+  padding: 30 !important;
   box-sizing: border-box;
 }
 
@@ -100,6 +104,8 @@ nav.navbar .nav li a:hover {
   box-sizing: border-box;
 }
 
+/*Fin del menu de navegacion*/
+/*PAgina contactanos*/
 .sectionForm {
   background-color: #225d5aff;
   width: 100%;
@@ -108,14 +114,10 @@ nav.navbar .nav li a:hover {
   box-sizing: border-box;
 }
 
-.container {
-  margin-left: 10% !important;
-}
-
 .logoContacto {
   background-image: url(assets/images/logoContacto.png);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 35%;
   display: block;
   width: 80%;
   height: 60%;
@@ -124,13 +126,52 @@ nav.navbar .nav li a:hover {
   background-position: center;
 }
 
-.container {
-  text-align: left !important;
+.div1 {
+  display: inline-block;
+  width: 35%;
+  height: 75%;
+  margin: 1.5% 0 0 10%;
+  font-size: 18;
 }
 
-.well {
-  width: 50%;
-  margin-left: -18%;
+.div2 {
+  display: block;
+  width: 35%;
+  height: 75%;
+  margin: -30.65% 0% 0% 55%;
+  font-size: 20;
+  text-align: center;
+}
+
+.ubicacion {
+  background-image: url(assets/images/ubicacion.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 0 0 0 30%;
+}
+
+.formDiv1 {
+  width: 80%;
+  height: 95%;
+  display: block;
+  margin: 3% auto;
+}
+
+.botonFormulario {
+  margin: 1% 0 0 40%;
+  background-color: #1d403fff;
+  color: #fff;
+  border: 0;
+}
+
+.botonFormulario:hover {
+  margin: 1% 0 0 40%;
+  background-color: #088383ff;
+  color: #fff;
+  border: 0;
 }
 
 .divInfoEmpresa {
@@ -154,6 +195,8 @@ nav.navbar .nav li a:hover {
   color: #c8ad61ff !important;
 }
 
+/*Fin pagina contactanos*/
+/*Aqui Comienza el codigo del footer*/
 .footer {
   background-color: #1d403fff;
   width: 100%;
@@ -290,6 +333,8 @@ nav.navbar .nav li a:hover {
   margin-left: 3%;
 }
 
+/*fin del footer*/
+/*Aqui Comienza el codigo de Home*/
 #logoHome {
   background-image: url(assets/images/logoHome.png);
 }
@@ -351,6 +396,17 @@ nav.navbar .nav li a:hover {
   margin: 0% 0 0 50%;
   padding-top: 15%;
   font-size: 30;
+}
+
+.linkVerMas a {
+  text-decoration: none;
+  color: white;
+  margin-left: 50%;
+}
+
+.linkVerMas a:hover {
+  text-decoration: none;
+  color: #0f5757fd;
 }
 
 .anterior {
@@ -518,6 +574,8 @@ nav.navbar .nav li a:hover {
   color: #fff;
 }
 
+/*finaliza codigo de home*/
+/*Aqui Comienza el codigo de 404*/
 .section404 {
   background-color: #0f5757fd;
   display: block;
@@ -576,20 +634,1889 @@ nav.navbar .nav li a:hover {
   color: #fff;
 }
 
+/*Aqui termina el codigo de 404*/
+/*Nosotros*/
+#logoNosotros {
+  background-image: url(assets/images/logoNosotros.png);
+}
+
+.seccionNosotros {
+  background-color: red;
+  display: block;
+  width: 100%;
+  height: 95%;
+  margin: 10% 0 0 0;
+}
+
+.divNosotros1 {
+  background-color: #225d5aff;
+  display: block;
+  width: 75%;
+  height: 23.47%;
+}
+
+#divNosotrosPrimero {
+  float: left;
+}
+
+#divNosotrosSegundo {
+  float: right;
+}
+
+#divNosotrosTercero {
+  float: left;
+}
+
+#divNosotrosCuarto {
+  float: right;
+}
+
+.imagenNosotrosDerecha {
+  background-image: url(assets/images/basket.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 92%;
+}
+
+.imagenNosotrosDerecha2 {
+  background-image: url(assets/images/volley.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 92%;
+}
+
+.imagenNosotrosIzquierda1 {
+  background-image: url(assets/images/tenis.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 -34%;
+}
+
+.imagenNosotrosIzquierda2 {
+  background-image: url(assets/images/nosotros1.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: 0 0 0 -34%;
+}
+
+.tituloIzquierda {
+  color: #fff;
+  margin: 0% 0 0 -150%;
+  text-align: left;
+  z-index: 10;
+  font-size: 30;
+}
+
+.tituloDerecha {
+  color: #fff;
+  width: 50%;
+  margin: 0% 0 0 80%;
+  text-align: left;
+  z-index: 10;
+  font-size: 30;
+}
+
+.textoIzquierda {
+  color: #fff;
+  width: 100%;
+  margin: 0% 0 0 -130%;
+  text-align: left;
+  z-index: 10;
+  font-size: 24;
+}
+
+.textoDerecha {
+  color: #fff;
+  width: 100%;
+  margin: 0% 0 0 100%;
+  text-align: left;
+  z-index: 10;
+  font-size: 24;
+}
+
+.imagenNosotros2 {
+  background-image: url(assets/images/nosotros1.jpg);
+}
+
+/*Fin Nosotros*/
+/*Jornada*/
+.seccionJornada {
+  background-image: url(assets/images/patada.png);
+}
+
+#logoJornada {
+  background-image: url(assets/images/logoJornada.png);
+}
+
+.divJornada {
+  background-image: url(assets/images/premier.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada2 {
+  background-image: url(assets/images/liga.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada3 {
+  background-image: url(assets/images/serieA.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada4 {
+  background-image: url(assets/images/bundes.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada5 {
+  background-image: url(assets/images/francia.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada6 {
+  background-image: url(assets/images/nfl.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada7 {
+  background-image: url(assets/images/nba.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada8 {
+  background-image: url(assets/images/mlb.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 12%;
+  height: 30%;
+  margin: 3% 0 0 10%;
+  border: 5px solid #225D59;
+}
+
+.divJornada:hover {
+  border: 5px solid purple;
+}
+
+.divJornada2:hover {
+  border: 5px solid purple;
+}
+
+.divJornada3:hover {
+  border: 5px solid purple;
+}
+
+.divJornada4:hover {
+  border: 5px solid purple;
+}
+
+.divJornada5:hover {
+  border: 5px solid purple;
+}
+
+.divJornada6:hover {
+  border: 5px solid purple;
+}
+
+.divJornada7:hover {
+  border: 5px solid purple;
+}
+
+.divJornada8:hover {
+  border: 5px solid purple;
+}
+
+/*PopUp*/
+.popUp {
+  width: 100%;
+  height: 234%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popUpContent {
+  background-image: url(assets/images/tablaResultados.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1 !important;
+  width: 40%;
+  height: 28%;
+  margin: 50% 0 0 0;
+}
+
+/*Fin PopUP*/
+/*Pagina Eventos Inicio*/
+.logoEventos {
+  background-image: url(assets/images/logoEventos.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+  margin: 0% 0 0 0;
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+
+.comboBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28;
+}
+
+/*Pagina Eventos Final*/
+/*Pagina PRoductos Inicio*/
+.logoProductos {
+  background-image: url(assets/images/logoProductos.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+  margin: 0% 0 0 0;
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+
+#fondoProductos {
+  background-image: url(assets/images/fondoProductos.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: auto;
+  height: auto;
+}
+
+.bgVerdePequeño {
+  background-color: rgba(53, 123, 119, 0.7);
+  width: 100%;
+  height: 18%;
+  margin-top: 50% !important;
+}
+
+.bgVerdeGrande {
+  background-color: rgba(53, 123, 119, 0.7);
+  width: 100%;
+  height: 27.5%;
+  margin-top: 15% !important;
+}
+
+.textoProductos {
+  text-align: center;
+  font-size: 18;
+}
+
+.divFlechasProductos {
+  background-image: url(assets/images/anterior.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin: 12% 0 0 11%;
+}
+
+.divFlechasProductos a {
+  display: block;
+  width: 100%;
+  height: 10%;
+}
+
+.a {
+  color: #fff;
+}
+
+.a:hover {
+  color: #347b77e6;
+}
+
+#siguienteProductos {
+  background-image: url(assets/images/siguiente.png);
+  margin: 12% 0 0 5%;
+}
+
+.tituloPromo {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 30;
+  border: 1px solid #fff;
+  height: 4%;
+}
+
+/*Pagina PRoductos Final*/
+/*Fin pagina jornada*/
+/*Pagina asociados inicio*/
+.logoAsociados {
+  background-image: url(assets/images/logoAsociados.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+  margin: 0% 0 0 0;
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+
+#fondoAsociados {
+  background-image: url(assets/images/fondoSeccion1Home.png);
+  width: auto;
+  height: auto;
+}
+
+/*.divAsociados{
+	background-image: url(assets/images/fondoSeccion1Home.png);
+	width: 100%;
+	height: 60%;
+	display: block;
+	text-align: center;
+
+}*/
+.tituloAsociados {
+  font-size: 24;
+}
+
+.blanco {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: auto;
+  height: auto;
+}
+
+.textoImagen {
+  font-size: 120%;
+  color: black;
+}
+
+/*.divInfoAsociados{
+	background-color: rgb(53,123,119,0.7);;
+	width: 100%;
+	height: 50%;
+	display: inline-block;
+	margin:  0% 0 0 0;
+
+
+}*/
+.bgVerde {
+  background-color: rgba(53, 123, 119, 0.7);
+  width: 100%;
+  height: auto;
+}
+
+.bgVerdeTexto {
+  background-color: rgba(53, 123, 119, 0.7);
+  width: 100%;
+  height: auto;
+}
+
+.imagenAsociados {
+  background-image: url(assets/images/gym.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 90%;
+  margin: 2.5% 0 0 0;
+}
+
+.textoImagenAsociados {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  width: 45%;
+  height: 80%;
+  float: left;
+  margin: 5% 0 0 25;
+  color: black;
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 100%;
+}
+
+.divFlechas {
+  background-image: url(assets/images/anterior.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 3%;
+  height: 12%;
+  display: inline-block;
+  margin: 0% 5% 9% 0%;
+}
+
+#siguiente {
+  background-image: url(assets/images/siguiente.png);
+  margin: 0% 0% 9% 5%;
+}
+
+/*pagina asociados final*/
+/*Footer2 inicio*/
+.footerContenedor {
+  background-color: #1d403fff;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #1d403fff;
+}
+
+.footer2 {
+  background-color: #1d403fff;
+  display: block;
+  width: 100%;
+  height: 13%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer2Texto {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 3% 0 0 7%;
+  font-size: 28;
+}
+
+#divBuscador {
+  margin: 0 0 0 6%;
+}
+
+.enviarCorreoNew {
+  background-color: #225D59;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #225D59;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+}
+
+#enviarCorreoBotonNew {
+  background-image: url(assets/images/enviarCorreo.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  display: inline-block;
+  width: 35%;
+  height: 2.5%;
+  padding: 0;
+  margin: 0% 0 0 30%;
+}
+
+.redes {
+  margin: 0 0 0% 3%;
+}
+
+.divInferior {
+  margin: 2% 0 0 0;
+}
+
+.derechosNew {
+  display: inline-block;
+  float: right;
+  font-size: 20;
+  margin: -3% 0 0 55%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.imagenRedes {
+  background-image: url(assets/images/facebook.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 20%;
+  height: 5%;
+  margin-left: 2%;
+}
+
+#instagram {
+  background-image: url(assets/images/instagram.png);
+}
+
+#twitter {
+  background-image: url(assets/images/twitter.png);
+}
+
+#google {
+  background-image: url(assets/images/google.png);
+}
+
+/*Footer2 Final*/
+/*Pagina Eventos Inicio*/
+/*Pagina Eventos Final*/
+/*media query desktop*/
+@media only screen and (min-width: 1200px) {
+  .logo {
+    background-image: url(assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 300%;
+    margin-left: -143%;
+    padding: 30;
+  }
+
+  nav.navbar {
+    background-color: #1A3C3B !important;
+    width: 100%;
+    height: auto;
+    opacity: 0.9 !important;
+    margin-top: 3%;
+    margin-bottom: -0.1%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 20 !important;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 17% 0 58% !important;
+    text-align: center !important;
+    padding: 30 !important;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-align: center !important;
+  }
+
+  nav.navbar .nav li a:hover {
+    text-decoration: none;
+    color: #C8AD60 !important;
+  }
+
+  /*Pagina asociados inicio*/
+  .logoAsociados {
+    background-image: url(assets/images/logoAsociados.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    margin: 0% 0 0 0;
+    width: 100%;
+    height: 50%;
+    display: block;
+  }
+
+  #fondoAsociados {
+    background-image: url(assets/images/fondoSeccion1Home.png);
+    width: auto;
+    height: auto;
+  }
+
+  /*.divAsociados{
+  	background-image: url(assets/images/fondoSeccion1Home.png);
+  	width: 100%;
+  	height: 60%;
+  	display: block;
+  	text-align: center;
+
+  }*/
+  .tituloAsociados {
+    font-size: 24;
+  }
+
+  .blanco {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: auto;
+    height: auto;
+  }
+
+  .textoImagen {
+    font-size: 120%;
+    color: black;
+  }
+
+  /*.divInfoAsociados{
+  	background-color: rgb(53,123,119,0.7);;
+  	width: 100%;
+  	height: 50%;
+  	display: inline-block;
+  	margin:  0% 0 0 0;
+
+
+  }*/
+  .bgVerde {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 100% !important;
+    height: auto;
+  }
+
+  .bgVerdeTexto {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 100% !important;
+    height: auto;
+  }
+
+  .imagenAsociados {
+    background-image: url(assets/images/gym.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 90%;
+    margin: 2.5% 0 0 0;
+  }
+
+  .textoImagenAsociados {
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    width: 45%;
+    height: 80%;
+    float: left;
+    margin: 5% 0 0 25;
+    color: black;
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 100%;
+  }
+
+  .divFlechas {
+    background-image: url(assets/images/anterior.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 3%;
+    height: 12%;
+    display: inline-block;
+    margin: 0% 5% 9% 0%;
+  }
+
+  #siguiente {
+    background-image: url(assets/images/siguiente.png);
+    margin: 0% 0% 9% 5%;
+  }
+
+  /*pagina asociados final*/
+  /*Footer2 inicio*/
+  .footerContenedor {
+    background-color: #1d403fff;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    background-color: #1d403fff;
+  }
+
+  .footer2 {
+    background-color: #1d403fff;
+    display: block;
+    width: 100%;
+    height: 13%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer2Texto {
+    display: inline-block;
+    float: left;
+    width: 100% !important;
+    text-align: center;
+    margin: 3% 0 0 0% !important;
+    font-size: 22 !important;
+  }
+
+  #divBuscador {
+    margin: 0% 0 0 5% !important;
+  }
+
+  .enviarCorreoNew {
+    background-color: #225D59;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #225D59;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+  }
+
+  #enviarCorreoBotonNew {
+    background-image: url(assets/images/enviarCorreo.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0;
+    display: inline-block;
+    width: 35%;
+    height: 2.5%;
+    padding: 0;
+    margin: 0% 0 0 30%;
+  }
+
+  .redes {
+    margin: 0 0 0% 3%;
+  }
+
+  .divInferior {
+    margin: 2% 0 0 0;
+  }
+
+  .derechosNew {
+    display: inline-block;
+    float: right;
+    font-size: 20;
+    margin: -3% 0 0 55%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .imagenRedes {
+    background-image: url(assets/images/facebook.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 20%;
+    height: 5%;
+    margin-left: 2%;
+  }
+
+  #instagram {
+    background-image: url(assets/images/instagram.png);
+  }
+
+  #twitter {
+    background-image: url(assets/images/twitter.png);
+  }
+
+  #google {
+    background-image: url(assets/images/google.png);
+  }
+
+  /*Footer2 Final*/
+}
+/*Final media query desktop*/
+/*Media Queries Nuevos Iphone*/
+@media only screen and (max-width:640px) {
+  /*Pagina Eventos Inicio*/
+  .logoEventos {
+    background-image: url(assets/images/logoEventos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    margin: 0% 0 0 0;
+    width: 100%;
+    height: 20%;
+    display: block;
+  }
+
+  .comboBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28;
+  }
+
+  /*Pagina Eventos Final*/
+  /*Pagina PRoductos Inicio*/
+  .logoProductos {
+    background-image: url(assets/images/logoProductos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    margin: 0% 0 0 0;
+    width: 100%;
+    height: 25%;
+    display: block;
+  }
+
+  #fondoProductos {
+    background-image: url(assets/images/gimnasioIphone.png);
+    background-repeat: repeat;
+    width: auto;
+    height: 100%;
+  }
+
+  #bgVerdePequeñoPhone {
+    width: 60%;
+    height: 19%;
+    margin-left: 20%;
+  }
+
+  .bgVerdePequeño {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 60%;
+    height: 19%;
+    margin-left: 20%;
+    margin-top: 0% !important;
+  }
+
+  .bgVerdeGrande {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 60%;
+    height: 19%;
+    margin-left: 20%;
+    margin-top: 0% !important;
+  }
+
+  .textoProductos {
+    text-align: center;
+    font-size: 18;
+  }
+
+  .divFlechasProductos {
+    background-image: url(assets/images/anterior.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: auto;
+    height: auto;
+    display: none;
+    margin: 12% 0 0 11%;
+  }
+
+  .divFlechasProductos a {
+    display: block;
+    width: 100%;
+    height: 10%;
+  }
+
+  .a {
+    color: #fff;
+  }
+
+  .a:hover {
+    color: #347b77e6;
+  }
+
+  #siguienteProductos {
+    background-image: url(assets/images/siguiente.png);
+    margin: 12% 0 0 5%;
+  }
+
+  .tituloPromo {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20;
+    border: 1px solid #fff;
+    height: 3%;
+  }
+
+  /*Pagina PRoductos Final*/
+  .logo {
+    width: 200%;
+    margin-left: -100%;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 15 !important;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0% !important;
+    text-align: left !important;
+    padding: 4 !important;
+    box-sizing: border-box;
+  }
+
+  .logoAsociados {
+    height: 20% !important;
+  }
+
+  .tituloAsociados {
+    font-size: 14 !important;
+    margin: 5% auto !important;
+  }
+
+  .textoImagenAsociados {
+    width: 45% !important;
+    height: 80% !important;
+    font-size: 45% !important;
+  }
+
+  .bgVerde {
+    margin-bottom: 0 !important;
+    padding-bottom: 0% !important;
+  }
+
+  .bgVerdeTexto {
+    margin-bottom: 8% !important;
+    padding-bottom: 5% !important;
+  }
+
+  .footer2Texto {
+    font-size: 12 !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 0 0 0 !important;
+  }
+
+  .derechosNew {
+    display: inline-block;
+    height: auto;
+    font-size: 12 !important;
+    text-align: center;
+    margin: 0% 0 0 0% !important;
+  }
+
+  #divBuscador {
+    margin-left: 5% !important;
+  }
+
+  .enviarCorreoNew {
+    height: 2% !important;
+    margin-left: 5% !important;
+    margin-top: 10% !important;
+  }
+
+  #enviarCorreoBotonNew {
+    width: 9% !important;
+    height: 4% !important;
+    margin-left: 45% !important;
+  }
+
+  .redes {
+    margin: 0 0 0% 27% !important;
+  }
+
+  .imagenRedes {
+    background-image: url(assets/images/facebook.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 20% !important;
+    height: 5% !important;
+    margin-left: 2% !important;
+  }
+
+  #instagram {
+    background-image: url(assets/images/instagram.png);
+    margin: 0 0 0% 50% !important;
+  }
+
+  #twitter {
+    background-image: url(assets/images/twitter.png);
+    margin: 0 0 0% 85% !important;
+  }
+
+  #google {
+    background-image: url(assets/images/google.png);
+    margin: 0 0 0% 125% !important;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /*Pagina PRoductos Inicio*/
+  .logoProductos {
+    background-image: url(assets/images/logoProductos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    margin: 0% 0 0 0;
+    width: 100%;
+    height: 60%;
+    display: block;
+  }
+
+  #fondoProductos {
+    background-image: url(assets/images/gimnasioIphone.png);
+    background-repeat: repeat;
+    width: auto;
+    height: 100%;
+  }
+
+  #bgVerdePequeñoPhone {
+    width: 42%;
+    height: 51%;
+    margin-left: 29%;
+  }
+
+  .bgVerdePequeño {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 42%;
+    height: 51%;
+    margin-left: 29%;
+    margin-top: 0% !important;
+  }
+
+  .bgVerdeGrande {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 42%;
+    height: 51%;
+    margin-left: 29%;
+    margin-top: 0% !important;
+  }
+
+  .textoProductos {
+    text-align: center;
+    font-size: 18;
+  }
+
+  .divFlechasProductos {
+    background-image: url(assets/images/anterior.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: auto;
+    height: auto;
+    display: none;
+    margin: 12% 0 0 11%;
+  }
+
+  .divFlechasProductos a {
+    display: block;
+    width: 100%;
+    height: 10%;
+  }
+
+  .a {
+    color: #fff;
+  }
+
+  .a:hover {
+    color: #347b77e6;
+  }
+
+  #siguienteProductos {
+    background-image: url(assets/images/siguiente.png);
+    margin: 12% 0 0 5%;
+  }
+
+  .tituloPromo {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20;
+    border: 1px solid #fff;
+    height: 6%;
+  }
+
+  /*Pagina PRoductos Final*/
+  .logo {
+    width: 200%;
+    margin-left: -100%;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 15 !important;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0% !important;
+    text-align: left !important;
+    padding: 4 !important;
+    box-sizing: border-box;
+  }
+
+  .logoAsociados {
+    height: 60% !important;
+  }
+
+  .tituloAsociados {
+    font-size: 18 !important;
+    margin: 5% auto !important;
+  }
+
+  .textoImagenAsociados {
+    width: 45% !important;
+    height: 80% !important;
+    font-size: 45% !important;
+  }
+
+  .bgVerde {
+    margin-bottom: 0 !important;
+    padding-bottom: 0% !important;
+  }
+
+  .bgVerdeTexto {
+    margin-bottom: 8% !important;
+    padding-bottom: 5% !important;
+  }
+
+  .footer2Texto {
+    font-size: 16 !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 0 0 0 !important;
+  }
+
+  .derechosNew {
+    display: inline-block;
+    height: auto;
+    font-size: 14 !important;
+    text-align: center;
+    margin: 0% 0 0 3% !important;
+  }
+
+  #divBuscador {
+    margin-left: 0% !important;
+    margin-top: 5%;
+  }
+
+  .enviarCorreoNew {
+    height: 3% !important;
+    margin-left: 5% !important;
+    margin-top: 0% !important;
+  }
+
+  #enviarCorreoBotonNew {
+    width: 9% !important;
+    height: 4% !important;
+    margin-left: 5% !important;
+    margin-top: 17% !important;
+  }
+
+  .redes {
+    margin: 3% 0 0% 40% !important;
+  }
+
+  .imagenRedes {
+    background-image: url(assets/images/facebook.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 20% !important;
+    height: 6% !important;
+    margin-left: 2% !important;
+  }
+
+  #instagram {
+    background-image: url(assets/images/instagram.png);
+    margin: 0 0 0% 50% !important;
+  }
+
+  #twitter {
+    background-image: url(assets/images/twitter.png);
+    margin: 0 0 0% 85% !important;
+  }
+
+  #google {
+    background-image: url(assets/images/google.png);
+    margin: 0 0 0% 125% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*Pagina Eventos Inicio*/
+  .logoEventos {
+    background-image: url(assets/images/logoEventos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    margin: 0% 0 0 0;
+    width: 100%;
+    height: 30%;
+    display: block;
+  }
+
+  .comboBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28;
+  }
+
+  /*Pagina Eventos Final*/
+  /*Pagina PRoductos Inicio*/
+  .logoProductos {
+    background-image: url(assets/images/logoProductos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    margin: 0% 0 0 0;
+    width: 100%;
+    height: 25%;
+    display: block;
+  }
+
+  #fondoProductos {
+    background-image: url(assets/images/fondoProductos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .bgVerdePequeño {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 100%;
+    height: 6%;
+    margin-top: 50% !important;
+  }
+
+  .bgVerdeGrande {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 100%;
+    height: 10%;
+    margin-top: 15% !important;
+  }
+
+  .textoProductos {
+    text-align: center;
+    font-size: 18;
+  }
+
+  .divFlechasProductos {
+    background-image: url(assets/images/anterior.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 12% 0 0 11%;
+  }
+
+  .divFlechasProductos a {
+    display: block;
+    width: 100%;
+    height: 10%;
+  }
+
+  .a {
+    color: #fff;
+  }
+
+  .a:hover {
+    color: #347b77e6;
+  }
+
+  #siguienteProductos {
+    background-image: url(assets/images/siguiente.png);
+    margin: 12% 0 0 5%;
+  }
+
+  .tituloPromo {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20;
+    border: 1px solid #fff;
+    height: 4%;
+  }
+
+  /*Pagina PRoductos Final*/
+  .logo {
+    background-image: url(assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    display: block;
+    width: 300%;
+    margin-left: -100%;
+    padding: 30;
+  }
+
+  nav.navbar {
+    background-color: #1A3C3B !important;
+    width: 100%;
+    height: auto;
+    opacity: 0.9 !important;
+    margin-top: 3%;
+    margin-bottom: -0.1%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 14 !important;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 50% 0 36% !important;
+    text-align: center !important;
+    padding: 15 !important;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-align: center !important;
+  }
+
+  nav.navbar .nav li a:hover {
+    text-decoration: none;
+    color: #C8AD60 !important;
+  }
+
+  .logoAsociados {
+    height: 32% !important;
+  }
+
+  .tituloAsociados {
+    font-size: 22;
+    margin: 5% auto;
+  }
+
+  .textoImagenAsociados {
+    width: 45%;
+    height: 80%;
+    font-size: 20%;
+  }
+
+  .bgVerde {
+    margin-bottom: 5%;
+    padding-bottom: 0%;
+  }
+
+  .bgVerdeTexto {
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    margin-top: 0%;
+  }
+
+  .blanco {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: auto;
+    height: auto;
+    margin-top: 10% !important;
+  }
+
+  .footer2 {
+    height: 9%;
+  }
+
+  .footer2Texto {
+    font-size: 20;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+  }
+
+  .derechosNew {
+    display: inline-block;
+    height: auto;
+    font-size: 20;
+    text-align: center;
+    margin: 0% 0 0 0% !important;
+  }
+
+  .enviarCorreoNew {
+    height: 2%;
+    margin-left: 44%;
+    margin-top: 0%;
+  }
+
+  #divBuscador {
+    margin-left: -6% !important;
+  }
+
+  #enviarCorreoBotonNew {
+    background-size: 80%;
+    width: 6%;
+    height: 4%;
+    margin-left: 49%;
+  }
+
+  .redes {
+    margin: 0 0 0% 39%;
+  }
+
+  .imagenRedes {
+    background-image: url(assets/images/facebook.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 20% !important;
+    height: 5% !important;
+    margin-left: 2% !important;
+  }
+
+  #instagram {
+    background-image: url(assets/images/instagram.png);
+    margin: 0 0 0% 42% !important;
+  }
+
+  #twitter {
+    background-image: url(assets/images/twitter.png);
+    margin: 0 0 0% 85% !important;
+  }
+
+  #google {
+    background-image: url(assets/images/google.png);
+    margin: 0 0 0% 125% !important;
+  }
+
+  .textoImagen {
+    font-size: 10;
+    color: black;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #bgVerdeTextoEventos {
+    margin-top: 2.4% !important;
+  }
+
+  /*Pagina PRoductos Inicio*/
+  .logoProductos {
+    background-image: url(assets/images/logoProductos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    margin: 0% 0 0 0;
+    width: 100%;
+    height: 45%;
+    display: block;
+  }
+
+  #fondoProductos {
+    background-image: url(assets/images/fondoProductos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .bgVerdePequeño {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 100%;
+    height: 12%;
+    margin-top: 50% !important;
+  }
+
+  .bgVerdeGrande {
+    background-color: rgba(53, 123, 119, 0.7);
+    width: 100%;
+    height: 19%;
+    margin-top: 15% !important;
+  }
+
+  .textoProductos {
+    text-align: center;
+    font-size: 18;
+  }
+
+  .divFlechasProductos {
+    background-image: url(assets/images/anterior.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 12% 0 0 11%;
+  }
+
+  .divFlechasProductos a {
+    display: block;
+    width: 100%;
+    height: 10%;
+  }
+
+  .a {
+    color: #fff;
+  }
+
+  .a:hover {
+    color: #347b77e6;
+  }
+
+  #siguienteProductos {
+    background-image: url(assets/images/siguiente.png);
+    margin: 12% 0 0 5%;
+  }
+
+  .tituloPromo {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20;
+    border: 1px solid #fff;
+    height: 3%;
+  }
+
+  /*Pagina PRoductos Final*/
+  .logo {
+    background-image: url(assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    background-position: center;
+    display: block;
+    width: 221% !important;
+    margin-left: -61% !important;
+    padding: 27 !important;
+  }
+
+  nav.navbar {
+    background-color: #1A3C3B !important;
+    width: 100%;
+    height: auto;
+    opacity: 0.9 !important;
+    margin-top: 3%;
+    margin-bottom: -0.1%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  nav.navbar .nav li a {
+    text-decoration: none;
+    color: #225D59 !important;
+    font-size: 17 !important;
+    border-left: 1px solid #225D59 !important;
+    opacity: 1 !important;
+    margin: 0 26% 0 25% !important;
+    text-align: center !important;
+    padding: 27 !important;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-align: center !important;
+  }
+
+  nav.navbar .nav li a:hover {
+    text-decoration: none;
+    color: #C8AD60 !important;
+  }
+
+  .logoAsociados {
+    height: 40%;
+  }
+
+  .tituloAsociados {
+    font-size: 22;
+    margin: 5% auto;
+  }
+
+  .textoImagenAsociados {
+    width: 45%;
+    height: 80%;
+    font-size: 20%;
+  }
+
+  .bgVerde {
+    margin-bottom: 5% !important;
+    padding-bottom: 0% !important;
+  }
+
+  .bgVerdeTexto {
+    margin-bottom: 5% !important;
+    padding-bottom: 5% !important;
+    margin-top: 0% !important;
+  }
+
+  .blanco {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: auto;
+    height: auto;
+    margin-top: 10% !important;
+  }
+
+  .footer2 {
+    height: 9%;
+  }
+
+  .footer2Texto {
+    font-size: 20;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+  }
+
+  .derechosNew {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    font-size: 20 !important;
+    text-align: center;
+    margin: 0% 0 0 27% !important;
+  }
+
+  .enviarCorreoNew {
+    height: 2%;
+    margin-left: 80% !important;
+    margin-top: 0% !important;
+  }
+
+  #divBuscador {
+    margin-left: -6% !important;
+  }
+
+  #enviarCorreoBotonNew {
+    background-size: 100% !important;
+    width: 41% !important;
+    height: 4% !important;
+    margin-left: 287% !important;
+    margin-top: -21% !important;
+  }
+
+  .redes {
+    margin: 0 0 0% 39% !important;
+  }
+
+  .imagenRedes {
+    background-image: url(assets/images/facebook.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 20% !important;
+    height: 5% !important;
+    margin-left: 2% !important;
+  }
+
+  #instagram {
+    background-image: url(assets/images/instagram.png);
+    margin: 0 0 0% 42% !important;
+  }
+
+  #twitter {
+    background-image: url(assets/images/twitter.png);
+    margin: 0 0 0% 85% !important;
+  }
+
+  #google {
+    background-image: url(assets/images/google.png);
+    margin: 0 0 0% 125% !important;
+  }
+
+  .textoImagen {
+    font-size: 14;
+    color: black;
+  }
+}
+/*Fin media query nuevo iphone*/
+/*Media query para hacer responsive para iphone 6,7 y 8 vertical*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  /*jornada*/
+  .seccionJornada {
+    background-image: url(assets/images/patada.png);
+  }
+
+  #logoJornada {
+    background-image: url(assets/images/logoJornada.png);
+  }
+
+  .divJornada {
+    background-image: url(assets/images/premier.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada2 {
+    background-image: url(assets/images/liga.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada3 {
+    background-image: url(assets/images/serieA.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada4 {
+    background-image: url(assets/images/bundes.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 3% 0 0 10%;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada5 {
+    background-image: url(assets/images/francia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada6 {
+    background-image: url(assets/images/nfl.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada7 {
+    background-image: url(assets/images/nba.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada8 {
+    background-image: url(assets/images/mlb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 19% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada2:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada3:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada4:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada5:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada6:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada7:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada8:hover {
+    border: 5px solid purple;
+  }
+
+  /*PopUp*/
+  .popUp {
+    width: 100%;
+    height: 146% !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    display: none !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popUpContent {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1 !important;
+    width: 69% !important;
+    height: 22% !important;
+    margin: 25% 0 0 0 !important;
+  }
+
+  /*Fin PopUP*/
+  /*Fin pagina jornada*/
+  /*Nosotros*/
   .seccionNosotros {
     background-color: red;
     display: block;
     width: 100%;
-    height: 36%;
-    margin: -59% 0 0 0;
+    height: 36% !important;
+    margin: -59% 0 0 0 !important;
   }
 
   .divNosotros1 {
     background-color: #225d5aff;
     display: block;
     width: 75%;
-    height: 23.9%;
+    height: 23.9% !important;
   }
 
   #divNosotrosPrimero {
@@ -611,7 +2538,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosDerecha {
     background-image: url(assets/images/basket.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -621,7 +2548,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosDerecha2 {
     background-image: url(assets/images/volley.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -631,7 +2558,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosIzquierda1 {
     background-image: url(assets/images/tenis.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -641,7 +2568,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosIzquierda2 {
     background-image: url(assets/images/nosotros1.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -650,43 +2577,45 @@ nav.navbar .nav li a:hover {
 
   .tituloIzquierda {
     color: #fff;
-    margin: 0% 0 0 -130%;
+    margin: 0% 0 0 -130% !important;
     text-align: left;
     z-index: 10;
-    font-size: 16;
+    font-size: 16 !important;
   }
 
   .tituloDerecha {
     color: #fff;
-    width: 50%;
-    margin: 0% 0 0 90%;
+    width: 100% !important;
+    margin: 0% 0 0 90% !important;
     text-align: left;
     z-index: 10;
-    font-size: 16;
+    font-size: 16 !important;
   }
 
   .textoIzquierda {
     color: #fff;
-    width: 150%;
-    margin: -10% 0 0 -130%;
+    width: 140% !important;
+    margin: -5% 0 0 -150% !important;
     text-align: left;
     z-index: 10;
-    font-size: 10;
+    font-size: 10 !important;
   }
 
   .textoDerecha {
     color: #fff;
-    width: 150%;
-    margin: 0% 0 0 100%;
+    width: 130% !important;
+    margin: -5% 0 0 90% !important;
     text-align: left;
     z-index: 10;
-    font-size: 10;
+    font-size: 10 !important;
   }
 
   .imagenNosotros2 {
     background-image: url(assets/images/nosotros1.jpg);
   }
 
+  /*Fin Nosotros*/
+  /*media query home*/
   #logoHome {
     background-image: url(assets/images/logoHome.png);
   }
@@ -910,6 +2839,8 @@ nav.navbar .nav li a:hover {
     color: #fff;
   }
 
+  /*fin media query home*/
+  /*Contactanos*/
   .sectionForm {
     background-color: #225d5aff;
     width: 100%;
@@ -961,18 +2892,19 @@ nav.navbar .nav li a:hover {
     display: block;
     width: 70%;
     height: 75%;
-    margin: -46.65% 0% 0% 37%;
+    margin: -46.65% 0% 0% 33% !important;
     font-size: 20;
+    text-align: center !important;
   }
 
   .ubicacion {
     background-image: url(assets/images/ubicacion.png);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 100% !important;
     display: block;
-    width: 60%;
-    height: 60%;
-    margin: 0 0 0 30%;
+    width: 70% !important;
+    height: 70% !important;
+    margin: 0 0 0 14% !important;
   }
 
   .formDiv1 {
@@ -989,6 +2921,8 @@ nav.navbar .nav li a:hover {
     border: 0;
   }
 
+  /*Fin media query contactanos*/
+  /*Menu de navegacion*/
   .logo {
     width: 150%;
     height: auto;
@@ -1031,6 +2965,8 @@ nav.navbar .nav li a:hover {
     box-sizing: border-box;
   }
 
+  /*fin de menu de navegacion*/
+  /*Pagina 404 inicio*/
   .section404 {
     background-color: #0f5757fd;
     display: block;
@@ -1079,6 +3015,8 @@ nav.navbar .nav li a:hover {
     text-align: center;
   }
 
+  /*Pagina 404 final*/
+  /*Footer inicio*/
   .footer {
     background-color: #1d403fff;
     width: 100%;
@@ -1208,14 +3146,172 @@ nav.navbar .nav li a:hover {
     display: inline-block;
     margin-left: 3%;
   }
+
+  /*Footer final*/
 }
+/*Fin del media query iphone 6, 7, 8 vertical*/
+/*Media query iphone 6, 7 y 8 horizontal/*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  /*jornada*/
+  .seccionJornada {
+    background-image: url(assets/images/patada.png);
+  }
+
+  #logoJornada {
+    background-image: url(assets/images/logoJornada.png);
+  }
+
+  .divJornada {
+    background-image: url(assets/images/premier.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada2 {
+    background-image: url(assets/images/liga.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada3 {
+    background-image: url(assets/images/serieA.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada4 {
+    background-image: url(assets/images/bundes.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 3% 0 0 10%;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada5 {
+    background-image: url(assets/images/francia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada6 {
+    background-image: url(assets/images/nfl.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada7 {
+    background-image: url(assets/images/nba.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada8 {
+    background-image: url(assets/images/mlb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 21% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada2:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada3:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada4:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada5:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada6:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada7:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada8:hover {
+    border: 5px solid purple;
+  }
+
+  /*PopUp*/
+  .popUp {
+    width: 100%;
+    height: 374% !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    display: none !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popUpContent {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1 !important;
+    width: 69% !important;
+    height: 27% !important;
+    margin: 25% 0 0 0 !important;
+  }
+
+  /*Fin PopUP*/
+  /*Fin pagina jornada*/
+  /*Nosotros*/
   .seccionNosotros {
     background-color: red;
     display: block;
     width: 100%;
-    height: 95%;
-    margin: 10% 0 0 0;
+    height: 95% !important;
+    margin: 10% 0 0 0 !important;
   }
 
   .divNosotros1 {
@@ -1286,7 +3382,7 @@ nav.navbar .nav li a:hover {
     margin: 0% 0 0 -130%;
     text-align: left;
     z-index: 10;
-    font-size: 22;
+    font-size: 22 !important;
   }
 
   .tituloDerecha {
@@ -1295,7 +3391,7 @@ nav.navbar .nav li a:hover {
     margin: 0% 0 0 90%;
     text-align: left;
     z-index: 10;
-    font-size: 22;
+    font-size: 22 !important;
   }
 
   .textoIzquierda {
@@ -1304,7 +3400,7 @@ nav.navbar .nav li a:hover {
     margin: -10% 0 0 -130%;
     text-align: left;
     z-index: 10;
-    font-size: 14;
+    font-size: 14 !important;
   }
 
   .textoDerecha {
@@ -1313,13 +3409,15 @@ nav.navbar .nav li a:hover {
     margin: 0% 0 0 100%;
     text-align: left;
     z-index: 10;
-    font-size: 14;
+    font-size: 14 !important;
   }
 
   .imagenNosotros2 {
     background-image: url(assets/images/nosotros1.jpg);
   }
 
+  /*Fin pagina Nosotros*/
+  /*media query home*/
   #logoHome {
     background-image: url(assets/images/logoHome.png);
   }
@@ -1541,6 +3639,8 @@ nav.navbar .nav li a:hover {
     color: #fff;
   }
 
+  /*fin media query home*/
+  /*Contactanos*/
   .sectionForm {
     background-color: #225d5aff;
     width: 100%;
@@ -1585,7 +3685,7 @@ nav.navbar .nav li a:hover {
   }
 
   .botonFormulario {
-    margin-left: 30%;
+    margin-left: 110% !important;
   }
 
   .div2 {
@@ -1593,17 +3693,17 @@ nav.navbar .nav li a:hover {
     width: 70%;
     height: 75%;
     margin: -45.65% 0% 0% 35%;
-    font-size: 20;
+    font-size: 24 !important;
   }
 
   .ubicacion {
     background-image: url(assets/images/ubicacion.png);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 100% !important;
     display: block;
-    width: 60%;
-    height: 12%;
-    margin: 0 0 0 30%;
+    width: 80% !important;
+    height: 30% !important;
+    margin: 0 0 0 10% !important;
   }
 
   .formDiv1 {
@@ -1620,6 +3720,8 @@ nav.navbar .nav li a:hover {
     border: 0;
   }
 
+  /*Fin media query contactanos*/
+  /*Menu de navegacion*/
   .logo {
     width: 200%;
     height: auto;
@@ -1662,6 +3764,8 @@ nav.navbar .nav li a:hover {
     box-sizing: border-box;
   }
 
+  /*Fin menu de navegacion*/
+  /*Pagina 404*/
   .section404 {
     background-color: #0f5757fd;
     display: block;
@@ -1710,6 +3814,8 @@ nav.navbar .nav li a:hover {
     text-align: center;
   }
 
+  /*Fin pagina 404*/
+  /*Footer inicio*/
   .footer {
     background-color: #1d403fff;
     width: 100%;
@@ -1840,21 +3946,179 @@ nav.navbar .nav li a:hover {
     display: inline-block;
     margin-left: 3%;
   }
+
+  /*Footer final*/
 }
+/* Fin media query iphone 6,7 y 8 horizontal*/
+/*Media query ipad air 2 vertical*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /*jornada*/
+  .seccionJornada {
+    background-image: url(assets/images/patada.png);
+  }
+
+  #logoJornada {
+    background-image: url(assets/images/logoJornada.png);
+  }
+
+  .divJornada {
+    background-image: url(assets/images/premier.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 16% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada2 {
+    background-image: url(assets/images/liga.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada3 {
+    background-image: url(assets/images/serieA.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada4 {
+    background-image: url(assets/images/bundes.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada5 {
+    background-image: url(assets/images/francia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada6 {
+    background-image: url(assets/images/nfl.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada7 {
+    background-image: url(assets/images/nba.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada8 {
+    background-image: url(assets/images/mlb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 18% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada2:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada3:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada4:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada5:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada6:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada7:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada8:hover {
+    border: 5px solid purple;
+  }
+
+  /*PopUp*/
+  .popUp {
+    width: 100%;
+    height: 166% !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    display: none !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popUpContent {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1 !important;
+    width: 69% !important;
+    height: 27% !important;
+    margin: 68% 0 0 0 !important;
+  }
+
+  /*Fin PopUP*/
+  /*Fin pagina jornada*/
+  /*Nosotros*/
   .seccionNosotros {
     background-color: red;
     display: block;
     width: 100%;
-    height: 45%;
-    margin: -16% 0 0 0;
+    height: 45% !important;
+    margin: -16% 0 0 0 !important;
   }
 
   .divNosotros1 {
     background-color: #225d5aff;
     display: block;
-    width: 75%;
-    height: 24.25%;
+    width: 75% !important;
+    height: 24.25% !important;
   }
 
   #divNosotrosPrimero {
@@ -1876,7 +4140,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosDerecha {
     background-image: url(assets/images/basket.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -1886,7 +4150,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosDerecha2 {
     background-image: url(assets/images/volley.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -1896,7 +4160,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosIzquierda1 {
     background-image: url(assets/images/tenis.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -1906,7 +4170,7 @@ nav.navbar .nav li a:hover {
   .imagenNosotrosIzquierda2 {
     background-image: url(assets/images/nosotros1.jpg);
     background-repeat: no-repeat;
-    background-size: 83%;
+    background-size: 83% !important;
     display: block;
     width: 60%;
     height: 100%;
@@ -1915,43 +4179,45 @@ nav.navbar .nav li a:hover {
 
   .tituloIzquierda {
     color: #fff;
-    margin: 0% 0 0 -130%;
+    margin: 0% 0 0 -145% !important;
     text-align: left;
     z-index: 10;
-    font-size: 30;
+    font-size: 30 !important;
   }
 
   .tituloDerecha {
     color: #fff;
-    width: 50%;
-    margin: 0% 0 0 90%;
+    width: 70% !important;
+    margin: 0% 0 0 90% !important;
     text-align: left;
     z-index: 10;
-    font-size: 30;
+    font-size: 30 !important;
   }
 
   .textoIzquierda {
     color: #fff;
-    width: 150%;
-    margin: -10% 0 0 -130%;
+    width: 130% !important;
+    margin: 0% 0 0 -145% !important;
     text-align: left;
     z-index: 10;
-    font-size: 14;
+    font-size: 16 !important;
   }
 
   .textoDerecha {
     color: #fff;
     width: 150%;
-    margin: 0% 0 0 100%;
+    margin: 0% 0 0 90% !important;
     text-align: left;
     z-index: 10;
-    font-size: 14;
+    font-size: 16 !important;
   }
 
   .imagenNosotros2 {
     background-image: url(assets/images/nosotros1.jpg);
   }
 
+  /*Fin Nosotros*/
+  /*media query home*/
   #logoHome {
     background-image: url(assets/images/logoHome.png);
   }
@@ -2173,10 +4439,12 @@ nav.navbar .nav li a:hover {
     color: #fff;
   }
 
+  /*fin media query home*/
+  /*Contactanos*/
   .sectionForm {
     background-color: #225d5aff;
     width: 100%;
-    height: 60%;
+    height: 65%;
     float: center;
     box-sizing: border-box;
     margin-top: -30%;
@@ -2218,25 +4486,26 @@ nav.navbar .nav li a:hover {
   }
 
   .botonFormulario {
-    margin-left: 118%;
+    margin-top: 5% !important;
+    margin-left: 118% !important;
   }
 
   .div2 {
     display: block;
     width: 70%;
     height: 75%;
-    margin: -15.65% 0% 0% 34%;
-    font-size: 20;
+    margin: -36.65% 0% 0% 34% !important;
+    font-size: 28 !important;
   }
 
   .ubicacion {
     background-image: url(assets/images/ubicacion.png);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 100% !important;
     display: block;
-    width: 60%;
-    height: 12%;
-    margin: 0 0 0 30%;
+    width: 60% !important;
+    height: 40% !important;
+    margin: 0 0 0 20% !important;
   }
 
   .formDiv1 {
@@ -2253,6 +4522,8 @@ nav.navbar .nav li a:hover {
     border: 0;
   }
 
+  /*Fin media query contactanos*/
+  /*Menu de navegacion*/
   .logo {
     width: 200%;
     height: auto;
@@ -2295,6 +4566,8 @@ nav.navbar .nav li a:hover {
     box-sizing: border-box;
   }
 
+  /*Fin menu de navegacion*/
+  /*Pagina 404 inicio*/
   .section404 {
     background-color: #0f5757fd;
     display: block;
@@ -2344,6 +4617,8 @@ nav.navbar .nav li a:hover {
     text-align: center;
   }
 
+  /*Pagina 404 final*/
+  /*footer*/
   .footer {
     background-color: #1d403fff;
     width: 100%;
@@ -2473,21 +4748,179 @@ nav.navbar .nav li a:hover {
     display: inline-block;
     margin-left: 3%;
   }
+
+  /*Footer final*/
 }
+/*Fin media query ipad air 2 vertical*/
+/*Media query ipad air 2 horizontal*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /*jornada*/
+  .seccionJornada {
+    background-image: url(assets/images/patada.png);
+  }
+
+  #logoJornada {
+    background-image: url(assets/images/logoJornada.png);
+  }
+
+  .divJornada {
+    background-image: url(assets/images/premier.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada2 {
+    background-image: url(assets/images/liga.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada3 {
+    background-image: url(assets/images/serieA.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada4 {
+    background-image: url(assets/images/bundes.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada5 {
+    background-image: url(assets/images/francia.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada6 {
+    background-image: url(assets/images/nfl.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada7 {
+    background-image: url(assets/images/nba.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada8 {
+    background-image: url(assets/images/mlb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 16% !important;
+    height: 22% !important;
+    margin: 14% 0 0 7% !important;
+    border: 5px solid #225D59;
+  }
+
+  .divJornada:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada2:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada3:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada4:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada5:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada6:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada7:hover {
+    border: 5px solid purple;
+  }
+
+  .divJornada8:hover {
+    border: 5px solid purple;
+  }
+
+  /*PopUp*/
+  .popUp {
+    width: 100%;
+    height: 249% !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    display: none !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popUpContent {
+    background-image: url(assets/images/tablaResultados.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1 !important;
+    width: 69% !important;
+    height: 31% !important;
+    margin: 68% 0 0 0 !important;
+  }
+
+  /*Fin PopUP*/
+  /*Fin pagina jornada*/
+  /*Nosotros*/
   .seccionNosotros {
     background-color: red;
     display: block;
     width: 100%;
-    height: 64%;
-    margin: 8% 0 0 0;
+    height: 65% !important;
+    margin: 8% 0 0 0 !important;
   }
 
   .divNosotros1 {
     background-color: #225d5aff;
     display: block;
-    width: 75%;
-    height: 23.47%;
+    width: 75% !important;
+    height: 23.47% !important;
   }
 
   #divNosotrosPrimero {
@@ -2551,7 +4984,7 @@ nav.navbar .nav li a:hover {
     margin: 0% 0 0 -130%;
     text-align: left;
     z-index: 10;
-    font-size: 30;
+    font-size: 30 !important;
   }
 
   .tituloDerecha {
@@ -2560,7 +4993,7 @@ nav.navbar .nav li a:hover {
     margin: 0% 0 0 90%;
     text-align: left;
     z-index: 10;
-    font-size: 30;
+    font-size: 30 !important;
   }
 
   .textoIzquierda {
@@ -2569,22 +5002,24 @@ nav.navbar .nav li a:hover {
     margin: -10% 0 0 -130%;
     text-align: left;
     z-index: 10;
-    font-size: 20;
+    font-size: 20 !important;
   }
 
   .textoDerecha {
     color: #fff;
-    width: 150%;
+    width: 120% !important;
     margin: 0% 0 0 100%;
     text-align: left;
     z-index: 10;
-    font-size: 20;
+    font-size: 20 !important;
   }
 
   .imagenNosotros2 {
     background-image: url(assets/images/nosotros1.jpg);
   }
 
+  /*Fin Nosotros*/
+  /*media query home*/
   #logoHome {
     background-image: url(assets/images/logoHome.png);
   }
@@ -2806,10 +5241,12 @@ nav.navbar .nav li a:hover {
     color: #fff;
   }
 
+  /*fin media query home*/
+  /*Contactanos*/
   .sectionForm {
     background-color: #225d5aff;
     width: 100%;
-    height: 80%;
+    height: 91% !important;
     float: center;
     box-sizing: border-box;
     margin-top: 0%;
@@ -2851,25 +5288,28 @@ nav.navbar .nav li a:hover {
   }
 
   .botonFormulario {
-    margin-left: 121%;
+    margin-left: 112% !important;
+    width: 50% !important;
+    height: 5% !important;
+    font-size: 24 !important;
   }
 
   .div2 {
     display: block;
     width: 70%;
     height: 75%;
-    margin: -19.65% 0% 0% 32%;
+    margin: -33.65% 0% 0% 35% !important;
     font-size: 20;
   }
 
   .ubicacion {
     background-image: url(assets/images/ubicacion.png);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 100% !important;
     display: block;
-    width: 60%;
-    height: 12%;
-    margin: 0 0 0 30%;
+    width: 80% !important;
+    height: 80% !important;
+    margin: 0 0 0 10% !important;
   }
 
   .formDiv1 {
@@ -2886,6 +5326,8 @@ nav.navbar .nav li a:hover {
     border: 0;
   }
 
+  /*Fin media query contactanos*/
+  /*MEnu de navegacion*/
   .logo {
     width: 250%;
     height: auto;
@@ -2928,6 +5370,8 @@ nav.navbar .nav li a:hover {
     box-sizing: border-box;
   }
 
+  /*Fin del menu de navegacion*/
+  /*Pagina 404 inicio*/
   .section404 {
     background-color: #0f5757fd;
     display: block;
@@ -2977,6 +5421,8 @@ nav.navbar .nav li a:hover {
     text-align: center;
   }
 
+  /*pagina 404 final*/
+  /*footer*/
   .footer {
     background-color: #1d403fff;
     width: 100%;
@@ -3108,167 +5554,9 @@ nav.navbar .nav li a:hover {
     display: inline-block;
     margin-left: 0%;
   }
-}
-.div1 {
-  display: inline-block;
-  width: 35%;
-  height: 75%;
-  margin: 1.5% 0 0 10%;
-  font-size: 18;
-}
 
-.div2 {
-  display: block;
-  width: 35%;
-  height: 75%;
-  margin: -30.65% 0% 0% 55%;
-  font-size: 20;
-  text-align: center;
+  /*footer final*/
 }
-
-.ubicacion {
-  background-image: url(assets/images/ubicacion.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  display: block;
-  width: 60%;
-  height: 60%;
-  margin: 0 0 0 30%;
-}
-
-.formDiv1 {
-  width: 80%;
-  height: 95%;
-  display: block;
-  margin: 3% auto;
-}
-
-.botonFormulario {
-  margin: 1% 0 0 40%;
-  background-color: #1d403fff;
-  color: #fff;
-  border: 0;
-}
-
-.botonFormulario:hover {
-  margin: 1% 0 0 40%;
-  background-color: #088383ff;
-  color: #fff;
-  border: 0;
-}
-
-#logoNosotros {
-  background-image: url(assets/images/logoNosotros.png);
-}
-
-.seccionNosotros {
-  background-color: red;
-  display: block;
-  width: 100%;
-  height: 95%;
-  margin: 10% 0 0 0;
-}
-
-.divNosotros1 {
-  background-color: #225d5aff;
-  display: block;
-  width: 75%;
-  height: 23.47%;
-}
-
-#divNosotrosPrimero {
-  float: left;
-}
-
-#divNosotrosSegundo {
-  float: right;
-}
-
-#divNosotrosTercero {
-  float: left;
-}
-
-#divNosotrosCuarto {
-  float: right;
-}
-
-.imagenNosotrosDerecha {
-  background-image: url(assets/images/basket.jpg);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  display: block;
-  width: 60%;
-  height: 100%;
-  margin: 0 0 0 92%;
-}
-
-.imagenNosotrosDerecha2 {
-  background-image: url(assets/images/volley.jpg);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  display: block;
-  width: 60%;
-  height: 100%;
-  margin: 0 0 0 92%;
-}
-
-.imagenNosotrosIzquierda1 {
-  background-image: url(assets/images/tenis.jpg);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  display: block;
-  width: 60%;
-  height: 100%;
-  margin: 0 0 0 -34%;
-}
-
-.imagenNosotrosIzquierda2 {
-  background-image: url(assets/images/nosotros1.jpg);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  display: block;
-  width: 60%;
-  height: 100%;
-  margin: 0 0 0 -34%;
-}
-
-.tituloIzquierda {
-  color: #fff;
-  margin: 0% 0 0 -150%;
-  text-align: left;
-  z-index: 10;
-  font-size: 30;
-}
-
-.tituloDerecha {
-  color: #fff;
-  width: 50%;
-  margin: 0% 0 0 80%;
-  text-align: left;
-  z-index: 10;
-  font-size: 30;
-}
-
-.textoIzquierda {
-  color: #fff;
-  width: 100%;
-  margin: 0% 0 0 -130%;
-  text-align: left;
-  z-index: 10;
-  font-size: 24;
-}
-
-.textoDerecha {
-  color: #fff;
-  width: 100%;
-  margin: 0% 0 0 100%;
-  text-align: left;
-  z-index: 10;
-  font-size: 24;
-}
-
-.imagenNosotros2 {
-  background-image: url(assets/images/nosotros1.jpg);
-}
+/*Final media query ipad air 2 horizontal*/
 
 /*# sourceMappingURL=style.css.map */
